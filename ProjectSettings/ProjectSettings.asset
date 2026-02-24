@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: c565a9df99f304fe69dba96f51178bee
+  productGUID: 54dbcaec4a8be4fc6be32e6a19e4cedc
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Sinners_Rue_2D
+  productName: 2D_Game_Fabi
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -515,7 +515,7 @@ PlayerSettings:
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
   playerPrefsMaxSize: 32768
-  ps4Passcode: q2OrSJ0IuTR37RsQJIoxTj0LJawXKGYc
+  ps4Passcode: nAjj3Z8y0oxHPfsauZlpN6UDm8TiLjAK
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -604,14 +604,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Sinners_Rue_2D
+  metroPackageName: 2D_Game_Fabi
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Sinners_Rue_2D
+  metroApplicationDescription: 2D_Game_Fabi
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -680,12 +680,12 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 1
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 8600717b-ab2e-4c7a-b034-06fe3ab5307d
+  cloudProjectId: 6806093c-7c9e-4ae5-a794-b02c1efc50d5
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Sinners_Rue_2D
+  projectName: 2D_Game_Fabi
   organizationId: unity_f04d70a0b42364455fe0
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
