@@ -1476,6 +1476,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 260912718}
     m_Modifications:
+    - target: {fileID: -2408249086723557154, guid: 3ff3c52ec5d1e47e1977ae296e78f078, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5822718002987203251, guid: 3ff3c52ec5d1e47e1977ae296e78f078, type: 3}
       propertyPath: m_Name
       value: top_kitchen_drawer (1)
@@ -2627,7 +2631,7 @@ Transform:
   m_GameObject: {fileID: 1223084433}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 31, y: -2.3, z: 0}
+  m_LocalPosition: {x: 30.7, y: -2.2, z: 0}
   m_LocalScale: {x: 10, y: 11, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2809,7 +2813,7 @@ Transform:
   m_GameObject: {fileID: 1344881201}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3, y: -1.2, z: 0}
+  m_LocalPosition: {x: -3, y: -1.24, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2862,7 +2866,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 8413548797001769720, guid: 55a10a305b3dd8949818970d6a6fdaf4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3489,7 +3493,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300076, guid: d12c57928542b92438bb08ca14ede744, type: 3}
+  m_Sprite: {fileID: -6428825176914336001, guid: 27da59ccd1dea9948a6a762dd417580d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3508,8 +3512,8 @@ Transform:
   m_GameObject: {fileID: 1872012756}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: -2, z: 0}
-  m_LocalScale: {x: 3.5, y: 7, z: 1}
+  m_LocalPosition: {x: -4.84, y: -2.3, z: 0}
+  m_LocalScale: {x: 9, y: 9, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3565,7 +3569,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0062894, y: 1.0062894}
+    oldSize: {x: 0.2, y: 0.57}
     newSize: {x: 1.0062894, y: 1.0062894}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3778,6 +3782,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 260912718}
     m_Modifications:
+    - target: {fileID: -2408249086723557154, guid: 3ff3c52ec5d1e47e1977ae296e78f078, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5822718002987203251, guid: 3ff3c52ec5d1e47e1977ae296e78f078, type: 3}
       propertyPath: m_Name
       value: top_kitchen_drawer
