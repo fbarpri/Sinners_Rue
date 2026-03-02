@@ -1,220 +1,226 @@
 fileFormatVersion: 2
-guid: cce0e1cea25688041a633658fd10b771
+guid: 71e77e4cb51f8f24fb602ec4fcc71ddf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5802988910245044933
-    second: rooms_third_set_0
+      213: -1462743923937826022
+    second: rooms_third_set 1_0
   - first:
-      213: -3782288527756915322
-    second: rooms_third_set_1
+      213: -2570177561474284351
+    second: rooms_third_set 1_1
   - first:
-      213: -6070712311024864578
-    second: rooms_third_set_2
+      213: 1435995039081539389
+    second: rooms_third_set 1_2
   - first:
-      213: 3613851943988372269
-    second: rooms_third_set_3
+      213: -7526748724507873887
+    second: rooms_third_set 1_3
   - first:
-      213: 3530530795238888049
-    second: rooms_third_set_4
+      213: 5793540910673805863
+    second: rooms_third_set 1_4
   - first:
-      213: 1180186691729442587
-    second: rooms_third_set_5
+      213: -7860796285070854373
+    second: rooms_third_set 1_5
   - first:
-      213: 3521559768165237693
-    second: rooms_third_set_6
+      213: 6535759218120203452
+    second: rooms_third_set 1_6
   - first:
-      213: 453715437354727494
-    second: rooms_third_set_7
+      213: -8732258682296903908
+    second: rooms_third_set 1_7
   - first:
-      213: -2255828163878799167
-    second: rooms_third_set_8
+      213: 9008097118619455566
+    second: rooms_third_set 1_8
   - first:
-      213: -3387415928330006991
-    second: rooms_third_set_9
+      213: -8791134008406543973
+    second: rooms_third_set 1_9
   - first:
-      213: 970649473722241383
-    second: rooms_third_set_10
+      213: 1195075315634518004
+    second: rooms_third_set 1_10
   - first:
-      213: -4151552261539788191
-    second: rooms_third_set_11
+      213: 5539146139996764103
+    second: rooms_third_set 1_11
   - first:
-      213: 8675683153513953960
-    second: rooms_third_set_12
+      213: 8510690816897516670
+    second: rooms_third_set 1_12
   - first:
-      213: -662176972545742092
-    second: rooms_third_set_13
+      213: 8823733854486710249
+    second: rooms_third_set 1_13
   - first:
-      213: 8482098341544182962
-    second: rooms_third_set_14
+      213: -5357451007751053904
+    second: rooms_third_set 1_14
   - first:
-      213: -6961170971371666194
-    second: rooms_third_set_15
+      213: -4893121609736711111
+    second: rooms_third_set 1_15
   - first:
-      213: 6870173973736068993
-    second: rooms_third_set_16
+      213: 1351525188803844788
+    second: rooms_third_set 1_16
   - first:
-      213: -348097211164766790
-    second: rooms_third_set_17
+      213: 4188191900868195451
+    second: rooms_third_set 1_17
   - first:
-      213: -4071790476901916728
-    second: rooms_third_set_18
+      213: -8374488952108318757
+    second: rooms_third_set 1_18
   - first:
-      213: -3519181426622324331
-    second: rooms_third_set_19
+      213: 5675204516590528888
+    second: rooms_third_set 1_19
   - first:
-      213: -991455232257123961
-    second: rooms_third_set_20
+      213: 8852123870851929920
+    second: rooms_third_set 1_20
   - first:
-      213: 6075035596236541815
-    second: rooms_third_set_21
+      213: 1799262613888180755
+    second: rooms_third_set 1_21
   - first:
-      213: -8306643208427756840
-    second: rooms_third_set_22
+      213: -7061561658612703301
+    second: rooms_third_set 1_22
   - first:
-      213: 694890486544635541
-    second: rooms_third_set_23
+      213: -1483677840369838595
+    second: rooms_third_set 1_23
   - first:
-      213: -7272396766676626292
-    second: rooms_third_set_24
+      213: -1915389885607099483
+    second: rooms_third_set 1_24
   - first:
-      213: 4324500644498387567
-    second: rooms_third_set_25
+      213: -3556339487627849848
+    second: rooms_third_set 1_25
   - first:
-      213: 5625217720254690890
-    second: rooms_third_set_26
+      213: -4283111539357341074
+    second: rooms_third_set 1_26
   - first:
-      213: 623504677873858148
-    second: rooms_third_set_27
+      213: -7569202429909517276
+    second: rooms_third_set 1_27
   - first:
-      213: 1370020747148079291
-    second: rooms_third_set_28
+      213: 8461710317515892368
+    second: rooms_third_set 1_28
   - first:
-      213: 6929560913693808430
-    second: rooms_third_set_29
+      213: 3346222105311228038
+    second: rooms_third_set 1_29
   - first:
-      213: 3057610165944795416
-    second: rooms_third_set_30
+      213: -5382455119426184789
+    second: rooms_third_set 1_30
   - first:
-      213: 1434106967391063179
-    second: rooms_third_set_31
+      213: 8898541171171162900
+    second: rooms_third_set 1_31
   - first:
-      213: -1698669919100883585
-    second: rooms_third_set_32
+      213: 991003424027278570
+    second: rooms_third_set 1_32
   - first:
-      213: -6079568937129723357
-    second: rooms_third_set_33
+      213: -8667323699321230341
+    second: rooms_third_set 1_33
   - first:
-      213: 1770005269345597714
-    second: rooms_third_set_34
+      213: -834826754102060889
+    second: rooms_third_set 1_34
   - first:
-      213: -7873288694106277786
-    second: rooms_third_set_35
+      213: 3139144246350655402
+    second: rooms_third_set 1_35
   - first:
-      213: -9095704269038854272
-    second: rooms_third_set_36
+      213: 3722206818148149201
+    second: rooms_third_set 1_36
   - first:
-      213: -5049200247415438398
-    second: rooms_third_set_37
+      213: 6320657991569166652
+    second: rooms_third_set 1_37
   - first:
-      213: -6322053099786056596
-    second: rooms_third_set_38
+      213: -2052972711609073135
+    second: rooms_third_set 1_38
   - first:
-      213: 132199970293461769
-    second: rooms_third_set_39
+      213: 187045922042186147
+    second: rooms_third_set 1_39
   - first:
-      213: -3348412914942901700
-    second: rooms_third_set_40
+      213: 8493937263042460866
+    second: rooms_third_set 1_40
   - first:
-      213: -3096408301523537777
-    second: rooms_third_set_41
+      213: 5523621006468929074
+    second: rooms_third_set 1_41
   - first:
-      213: 3634636396481288349
-    second: rooms_third_set_42
+      213: -6316295389733395011
+    second: rooms_third_set 1_42
   - first:
-      213: 7457596088987776894
-    second: rooms_third_set_43
+      213: -2975237081001752329
+    second: rooms_third_set 1_43
   - first:
-      213: 8532755750858251967
-    second: rooms_third_set_44
+      213: 2758594118038497430
+    second: rooms_third_set 1_44
   - first:
-      213: -2616255910718099329
-    second: rooms_third_set_45
+      213: 5984724990579165686
+    second: rooms_third_set 1_45
   - first:
-      213: 2343919539359414891
-    second: rooms_third_set_46
+      213: 2098977931674721492
+    second: rooms_third_set 1_46
   - first:
-      213: 6370894840210624812
-    second: rooms_third_set_47
+      213: 6199841167349174749
+    second: rooms_third_set 1_47
   - first:
-      213: -8585094902865646181
-    second: rooms_third_set_48
+      213: 4280808911784302965
+    second: rooms_third_set 1_48
   - first:
-      213: -2603018108726995956
-    second: rooms_third_set_49
+      213: 8044574487522293821
+    second: rooms_third_set 1_49
   - first:
-      213: -537866471341803837
-    second: rooms_third_set_50
+      213: -4984820257366876153
+    second: rooms_third_set 1_50
   - first:
-      213: -1842466303092373620
-    second: rooms_third_set_51
+      213: 2225295287205128690
+    second: rooms_third_set 1_51
   - first:
-      213: 1765155246605711268
-    second: rooms_third_set_52
+      213: -7501233058125867716
+    second: rooms_third_set 1_52
   - first:
-      213: -8356318578033330369
-    second: rooms_third_set_53
+      213: -4830642799288500369
+    second: rooms_third_set 1_53
   - first:
-      213: -8889873754945786073
-    second: rooms_third_set_54
+      213: -6697289723990416581
+    second: rooms_third_set 1_54
   - first:
-      213: 809748213267790319
-    second: rooms_third_set_55
+      213: -2992985233124581400
+    second: rooms_third_set 1_55
   - first:
-      213: -5771891132330900755
-    second: rooms_third_set_56
+      213: -8889349010748842908
+    second: rooms_third_set 1_56
   - first:
-      213: -26478919015654076
-    second: rooms_third_set_57
+      213: 4694425761339533632
+    second: rooms_third_set 1_57
   - first:
-      213: -6287109065051671832
-    second: rooms_third_set_58
+      213: -7341534679765956723
+    second: rooms_third_set 1_58
   - first:
-      213: -1641232863740463785
-    second: rooms_third_set_59
+      213: 1292412732521633168
+    second: rooms_third_set 1_59
   - first:
-      213: -8442908306705016078
-    second: rooms_third_set_60
+      213: 430910078542735611
+    second: rooms_third_set 1_60
   - first:
-      213: 4928014606874675777
-    second: rooms_third_set_61
+      213: -8273021646686864085
+    second: rooms_third_set 1_61
   - first:
-      213: -2546500784668810790
-    second: rooms_third_set_62
+      213: -9062095059742548496
+    second: rooms_third_set 1_62
   - first:
-      213: -1883168667305731775
-    second: rooms_third_set_63
+      213: -6614023768992210456
+    second: rooms_third_set 1_63
   - first:
-      213: -432563275503377383
-    second: rooms_third_set_64
+      213: 4127241806317550575
+    second: rooms_third_set 1_64
   - first:
-      213: -4308689710430118944
-    second: rooms_third_set_65
+      213: -4613153966885534872
+    second: rooms_third_set 1_65
   - first:
-      213: 5985001745500694453
-    second: rooms_third_set_66
+      213: -6322250607165214627
+    second: rooms_third_set 1_66
   - first:
-      213: 4567921874958259120
-    second: rooms_third_set_67
+      213: -350875174510821904
+    second: rooms_third_set 1_67
   - first:
-      213: -6401921909901679818
-    second: rooms_third_set_68
+      213: -6696039475645039258
+    second: rooms_third_set 1_68
   - first:
-      213: -1567375655577779815
-    second: rooms_third_set_69
+      213: -6469369409727765303
+    second: rooms_third_set 1_69
   - first:
-      213: -5256689459444247551
-    second: rooms_third_set_70
+      213: 1074371321718633066
+    second: rooms_third_set 1_70
+  - first:
+      213: 6591413980330946052
+    second: rooms_third_set 1_71
+  - first:
+      213: 2897605716236042231
+    second: rooms_third_set 1_72
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -323,7 +329,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rooms_third_set_0
+      name: rooms_third_set 1_0
       rect:
         serializedVersion: 2
         x: 258
@@ -331,15 +337,1621 @@ TextureImporter:
         width: 8
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3d1059e454a77fa0800000000000000
-      internalID: -5802988910245044933
+      spriteID: a1b2350b62a43bbe0800000000000000
+      internalID: -1462743923937826022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 265
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c445ae0025e45cd0800000000000000
+      internalID: -2570177561474284351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 266
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37adab31edade310800000000000000
+      internalID: 1435995039081539389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_3
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 267
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad651ad9ed9b8790800000000000000
+      internalID: -7526748724507873887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_4
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 267
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722c76443cac66050800000000000000
+      internalID: 5793540910673805863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_5
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 266
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1734a05d67d8e290800000000000000
+      internalID: -7860796285070854373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 266
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc1a85816ea3ba50800000000000000
+      internalID: 6535759218120203452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_7
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 265
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c175fd27ef8c0d680800000000000000
+      internalID: -8732258682296903908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_8
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 265
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4058893a90330d70800000000000000
+      internalID: 9008097118619455566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_9
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 265
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b917210623e9ff580800000000000000
+      internalID: -8791134008406543973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_10
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 265
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7bb34faa2c59010800000000000000
+      internalID: 1195075315634518004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_11
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 266
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7bb7111100fdc40800000000000000
+      internalID: 5539146139996764103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_12
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 267
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e740b56d43c0c1670800000000000000
+      internalID: 8510690816897516670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_13
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 266
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7c445c033347a70800000000000000
+      internalID: 8823733854486710249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_14
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 267
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd907581b286a5b0800000000000000
+      internalID: -5357451007751053904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_15
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 267
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9341bd022d3281cb0800000000000000
+      internalID: -4893121609736711111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_16
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 266
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba55af9ff491c210800000000000000
+      internalID: 1351525188803844788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_17
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 267
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74ba6608527f1a30800000000000000
+      internalID: 4188191900868195451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_18
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 266
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf76220ba6d7cb80800000000000000
+      internalID: -8374488952108318757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_19
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 267
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8792217707062ce40800000000000000
+      internalID: 5675204516590528888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_20
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 266
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04792ed82cf09da70800000000000000
+      internalID: 8852123870851929920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_21
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 267
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312227e70d348f810800000000000000
+      internalID: 1799262613888180755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_22
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 196
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf1fd2d51b400e90800000000000000
+      internalID: -7061561658612703301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_23
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 187
+        width: 34
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df513a37ddae86be0800000000000000
+      internalID: -1483677840369838595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_24
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 211
+        width: 67
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a343061c0b2b65e0800000000000000
+      internalID: -1915389885607099483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_25
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 235
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f4f3b041855aec0800000000000000
+      internalID: -3556339487627849848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_26
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 232
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6aaa337fb45f84c0800000000000000
+      internalID: -4283111539357341074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_27
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 235
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c383c4e7ac4f690800000000000000
+      internalID: -7569202429909517276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_28
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 235
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096eac3a3b80e6570800000000000000
+      internalID: 8461710317515892368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_29
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 232
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680b2a6964b207e20800000000000000
+      internalID: 3346222105311228038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_30
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 232
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba99e1b169dad45b0800000000000000
+      internalID: -5382455119426184789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_31
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 231
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b78d67c08fd7b70800000000000000
+      internalID: 8898541171171162900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_32
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 192
+        width: 75
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec77541d50c0cd00800000000000000
+      internalID: 991003424027278570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_33
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 228
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb22a4540b77b780800000000000000
+      internalID: -8667323699321230341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_34
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 225
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a811c08d791a64f0800000000000000
+      internalID: -834826754102060889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_35
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 228
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf21766f0b709b20800000000000000
+      internalID: 3139144246350655402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_36
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 230
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7e148416fe7a330800000000000000
+      internalID: 3722206818148149201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_37
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 220
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31d63e74fc77b750800000000000000
+      internalID: 6320657991569166652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_38
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 221
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11288f622306283e0800000000000000
+      internalID: -2052972711609073135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_39
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 224
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9820c6645889200800000000000000
+      internalID: 187045922042186147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_40
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 221
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc791c10f680e570800000000000000
+      internalID: 8493937263042460866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_41
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 225
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236577c3a08d7ac40800000000000000
+      internalID: 5523621006468929074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_42
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 222
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5e086eec20858a0800000000000000
+      internalID: -6316295389733395011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_43
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 225
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8025863a5d5b6d0800000000000000
+      internalID: -2975237081001752329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_44
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 220
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698aa251cbe784620800000000000000
+      internalID: 2758594118038497430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_45
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 219
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9cfd5aba30e0350800000000000000
+      internalID: 5984724990579165686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_46
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 223
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc1bd8de41112d10800000000000000
+      internalID: 2098977931674721492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_47
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 222
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1d0bb81b24a0650800000000000000
+      internalID: 6199841167349174749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_48
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 225
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579da3a460d786b30800000000000000
+      internalID: 4280808911784302965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_49
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 219
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38bfe9dfd114af60800000000000000
+      internalID: 8044574487522293821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_50
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 191
+        width: 27
+        height: 28
+      alignment: 9
+      pivot: {x: 0.50000054, y: 0.49391556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700e97af26c52dab0800000000000000
+      internalID: -4984820257366876153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_51
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 188
+        width: 25
+        height: 30
+      alignment: 9
+      pivot: {x: 0.45229554, y: 0.5113586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9663a0646d1ee10800000000000000
+      internalID: 2225295287205128690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_52
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 203
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c359df0e64446e790800000000000000
+      internalID: -7501233058125867716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_53
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 200
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f3c97c7fb16fcb0800000000000000
+      internalID: -4830642799288500369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_54
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 202
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b336da3da727e03a0800000000000000
+      internalID: -6697289723990416581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_55
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 205
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef9e99b9c7c676d0800000000000000
+      internalID: -2992985233124581400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_56
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 200
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c58d92c20b2a480800000000000000
+      internalID: -8889349010748842908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_57
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 194
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049e5199b53f52140800000000000000
+      internalID: 4694425761339533632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_58
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 196
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87c65a1b11ad1a90800000000000000
+      internalID: -7341534679765956723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_59
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 195
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095d42168829fe110800000000000000
+      internalID: 1292412732521633168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_60
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 199
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8eca1fe66eaf500800000000000000
+      internalID: 430910078542735611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_61
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 193
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2dbc1a05a2503d80800000000000000
+      internalID: -8273021646686864085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_62
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 189
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd19336e88fc3280800000000000000
+      internalID: -9062095059742548496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_63
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 193
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1aa39bc644634a0800000000000000
+      internalID: -6614023768992210456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_64
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 190
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febf2b74e88e64930800000000000000
+      internalID: 4127241806317550575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_65
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 190
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8638a9d98e8caffb0800000000000000
+      internalID: -4613153966885534872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_66
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 175
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d507beac19ad248a0800000000000000
+      internalID: -6322250607165214627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_67
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 178
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd77c643e0712bf0800000000000000
+      internalID: -350875174510821904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_68
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 180
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d3f24f293e213a0800000000000000
+      internalID: -6696039475645039258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_69
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 177
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4e56c4cce2836a0800000000000000
+      internalID: -6469369409727765303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_70
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 52
+        width: 481
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62f7eb560fe8ee00800000000000000
+      internalID: 1074371321718633066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_71
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 23
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e6b21a718697b50800000000000000
+      internalID: 6591413980330946052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set 1_72
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 19
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fff367fb0d563820800000000000000
+      internalID: 2897605716236042231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rooms_third_set_0
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 225
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a788fe5dc27a1f549b70ccc802216e4b
+      internalID: -1207765357
       vertices: []
       indices: 
       edges: []
@@ -348,20 +1960,20 @@ TextureImporter:
       name: rooms_third_set_1
       rect:
         serializedVersion: 2
-        x: 266
-        y: 265
-        width: 7
-        height: 12
+        x: 291
+        y: 197
+        width: 46
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 68d83099f9c928bc0800000000000000
-      internalID: -3782288527756915322
+      spriteID: 3156a0eef933d7b4e817896f0f5d98a9
+      internalID: -866382722
       vertices: []
       indices: 
       edges: []
@@ -370,20 +1982,20 @@ TextureImporter:
       name: rooms_third_set_2
       rect:
         serializedVersion: 2
-        x: 274
-        y: 266
-        width: 8
-        height: 11
+        x: 293
+        y: 175
+        width: 41
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eb2b5cf215f70cba0800000000000000
-      internalID: -6070712311024864578
+      spriteID: 6bab8a18fd534614997fcd87175bd140
+      internalID: -2055846763
       vertices: []
       indices: 
       edges: []
@@ -392,20 +2004,20 @@ TextureImporter:
       name: rooms_third_set_3
       rect:
         serializedVersion: 2
-        x: 283
-        y: 267
-        width: 8
-        height: 10
+        x: 345
+        y: 218
+        width: 71
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d232840323bf62230800000000000000
-      internalID: 3613851943988372269
+      spriteID: cd3cec4d59f56004f9f34a4292f1e317
+      internalID: 1182470171
       vertices: []
       indices: 
       edges: []
@@ -414,20 +2026,20 @@ TextureImporter:
       name: rooms_third_set_4
       rect:
         serializedVersion: 2
-        x: 291
-        y: 267
-        width: 6
-        height: 10
+        x: 350
+        y: 190
+        width: 52
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1729ace7d07fef030800000000000000
-      internalID: 3530530795238888049
+      spriteID: 68cb69022ba0eb9469435e86f8461997
+      internalID: 1746289565
       vertices: []
       indices: 
       edges: []
@@ -436,20 +2048,20 @@ TextureImporter:
       name: rooms_third_set_5
       rect:
         serializedVersion: 2
-        x: 298
-        y: 266
-        width: 7
-        height: 11
+        x: 423
+        y: 216
+        width: 54
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b174d211b8dd06010800000000000000
-      internalID: 1180186691729442587
+      spriteID: d3583feb49e12534bbffe76f44707362
+      internalID: -527093970
       vertices: []
       indices: 
       edges: []
@@ -458,977 +2070,9 @@ TextureImporter:
       name: rooms_third_set_6
       rect:
         serializedVersion: 2
-        x: 306
-        y: 266
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: db3cbcc73f71fd030800000000000000
-      internalID: 3521559768165237693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_7
-      rect:
-        serializedVersion: 2
-        x: 314
-        y: 265
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 648b3a059cbeb4600800000000000000
-      internalID: 453715437354727494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_8
-      rect:
-        serializedVersion: 2
-        x: 326
-        y: 265
-        width: 7
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1c8bea1ac30b1b0e0800000000000000
-      internalID: -2255828163878799167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_9
-      rect:
-        serializedVersion: 2
-        x: 335
-        y: 265
-        width: 9
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13ec365192b7df0d0800000000000000
-      internalID: -3387415928330006991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_10
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 265
-        width: 8
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 76152aabd80787d00800000000000000
-      internalID: 970649473722241383
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_11
-      rect:
-        serializedVersion: 2
-        x: 353
-        y: 266
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 16a8378c639b266c0800000000000000
-      internalID: -4151552261539788191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_12
-      rect:
-        serializedVersion: 2
-        x: 363
-        y: 267
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8aa3a05ccd7366870800000000000000
-      internalID: 8675683153513953960
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_13
-      rect:
-        serializedVersion: 2
-        x: 372
-        y: 266
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4faa7f44d897fc6f0800000000000000
-      internalID: -662176972545742092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_14
-      rect:
-        serializedVersion: 2
-        x: 380
-        y: 267
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2b4cba5608776b570800000000000000
-      internalID: 8482098341544182962
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_15
-      rect:
-        serializedVersion: 2
-        x: 394
-        y: 267
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ee481a622e3f46f90800000000000000
-      internalID: -6961170971371666194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_16
-      rect:
-        serializedVersion: 2
-        x: 403
-        y: 266
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1871ca154d2c75f50800000000000000
-      internalID: 6870173973736068993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_17
-      rect:
-        serializedVersion: 2
-        x: 412
-        y: 267
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: abd48354e6f4b2bf0800000000000000
-      internalID: -348097211164766790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_18
-      rect:
-        serializedVersion: 2
-        x: 421
-        y: 266
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8cf517072281e77c0800000000000000
-      internalID: -4071790476901916728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_19
-      rect:
-        serializedVersion: 2
-        x: 429
-        y: 267
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 591260e432b592fc0800000000000000
-      internalID: -3519181426622324331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_20
-      rect:
-        serializedVersion: 2
-        x: 438
-        y: 266
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7899c9e18b4ad32f0800000000000000
-      internalID: -991455232257123961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_21
-      rect:
-        serializedVersion: 2
-        x: 451
-        y: 267
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 77f488710bcde4450800000000000000
-      internalID: 6075035596236541815
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_22
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 196
-        width: 32
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d2a0cd2300e8bc80800000000000000
-      internalID: -8306643208427756840
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_23
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 187
-        width: 34
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5969a40473fb4a900800000000000000
-      internalID: 694890486544635541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_24
-      rect:
-        serializedVersion: 2
-        x: 110
-        y: 211
-        width: 67
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c845a88eba1431b90800000000000000
-      internalID: -7272396766676626292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_25
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 235
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f62364a8c66b30c30800000000000000
-      internalID: 4324500644498387567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_26
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 232
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a46730086b9c01e40800000000000000
-      internalID: 5625217720254690890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_27
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 235
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4663778733227a800800000000000000
-      internalID: 623504677873858148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_28
-      rect:
-        serializedVersion: 2
-        x: 141
-        y: 235
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb03da06c9a430310800000000000000
-      internalID: 1370020747148079291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_29
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 232
-        width: 9
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e279626cfeeba2060800000000000000
-      internalID: 6929560913693808430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_30
-      rect:
-        serializedVersion: 2
-        x: 156
-        y: 232
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 81143cafe30de6a20800000000000000
-      internalID: 3057610165944795416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_31
-      rect:
-        serializedVersion: 2
-        x: 164
-        y: 231
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b8cc14940b8f6e310800000000000000
-      internalID: 1434106967391063179
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_32
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 192
-        width: 28
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f7da95165bc1d68e0800000000000000
-      internalID: -1698669919100883585
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_33
-      rect:
-        serializedVersion: 2
-        x: 297
-        y: 228
-        width: 8
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 32a32ea334801aba0800000000000000
-      internalID: -6079568937129723357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_34
-      rect:
-        serializedVersion: 2
-        x: 305
-        y: 225
-        width: 8
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 219f9e12a62509810800000000000000
-      internalID: 1770005269345597714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_35
-      rect:
-        serializedVersion: 2
-        x: 314
-        y: 228
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 66832bda5a57cb290800000000000000
-      internalID: -7873288694106277786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_36
-      rect:
-        serializedVersion: 2
-        x: 322
-        y: 230
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08f5fed882195c180800000000000000
-      internalID: -9095704269038854272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_37
-      rect:
-        serializedVersion: 2
-        x: 348
-        y: 220
-        width: 10
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c30df47023ade9b0800000000000000
-      internalID: -5049200247415438398
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_38
-      rect:
-        serializedVersion: 2
-        x: 357
-        y: 221
-        width: 8
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6c4810933e8348a0800000000000000
-      internalID: -6322053099786056596
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_39
-      rect:
-        serializedVersion: 2
-        x: 365
-        y: 224
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 903b8ac2c2ba5d100800000000000000
-      internalID: 132199970293461769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_40
-      rect:
-        serializedVersion: 2
-        x: 373
-        y: 221
-        width: 10
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c328f7bc13c0881d0800000000000000
-      internalID: -3348412914942901700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_41
-      rect:
-        serializedVersion: 2
-        x: 381
-        y: 225
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f807e142e095705d0800000000000000
-      internalID: -3096408301523537777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_42
-      rect:
-        serializedVersion: 2
-        x: 389
-        y: 222
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d9819f3ab82d07230800000000000000
-      internalID: 3634636396481288349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_43
-      rect:
-        serializedVersion: 2
-        x: 396
-        y: 225
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e7775728124be7760800000000000000
-      internalID: 7457596088987776894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_44
-      rect:
-        serializedVersion: 2
-        x: 404
-        y: 220
-        width: 10
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fbed31d95207a6670800000000000000
-      internalID: 8532755750858251967
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_45
-      rect:
-        serializedVersion: 2
-        x: 425
-        y: 219
-        width: 9
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f70b1285c1131bbd0800000000000000
-      internalID: -2616255910718099329
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_46
-      rect:
-        serializedVersion: 2
-        x: 433
-        y: 223
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b6a7d950766478020800000000000000
-      internalID: 2343919539359414891
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_47
-      rect:
-        serializedVersion: 2
-        x: 441
-        y: 222
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c219f1c4a17f96850800000000000000
-      internalID: 6370894840210624812
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_48
-      rect:
-        serializedVersion: 2
-        x: 449
-        y: 225
-        width: 9
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9d2dafebad9bd880800000000000000
-      internalID: -8585094902865646181
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_49
-      rect:
-        serializedVersion: 2
-        x: 454
-        y: 219
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c041b6d42d830ebd0800000000000000
-      internalID: -2603018108726995956
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_50
-      rect:
-        serializedVersion: 2
-        x: 191
-        y: 191
-        width: 27
+        x: 419
+        y: 186
+        width: 43
         height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1436,450 +2080,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3c634174b4d1988f0800000000000000
-      internalID: -537866471341803837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_51
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 189
-        width: 25
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c874d8db8ae3e66e0800000000000000
-      internalID: -1842466303092373620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_52
-      rect:
-        serializedVersion: 2
-        x: 293
-        y: 203
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4a7b95738571f7810800000000000000
-      internalID: 1765155246605711268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_53
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 200
-        width: 8
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f377356e684680c80800000000000000
-      internalID: -8356318578033330369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_54
-      rect:
-        serializedVersion: 2
-        x: 310
-        y: 202
-        width: 9
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 72f6362abe2d0a480800000000000000
-      internalID: -8889873754945786073
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_55
-      rect:
-        serializedVersion: 2
-        x: 317
-        y: 205
-        width: 8
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe97551b5bdcc3b00800000000000000
-      internalID: 809748213267790319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_56
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 200
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de2803f889f16efa0800000000000000
-      internalID: -5771891132330900755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_57
-      rect:
-        serializedVersion: 2
-        x: 354
-        y: 194
-        width: 13
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44d190e309de1aff0800000000000000
-      internalID: -26478919015654076
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_58
-      rect:
-        serializedVersion: 2
-        x: 365
-        y: 196
-        width: 11
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8e2f479ad93bfb8a0800000000000000
-      internalID: -6287109065051671832
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_59
-      rect:
-        serializedVersion: 2
-        x: 373
-        y: 195
-        width: 11
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7557d03f76b2939e0800000000000000
-      internalID: -1641232863740463785
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_60
-      rect:
-        serializedVersion: 2
-        x: 381
-        y: 199
-        width: 9
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2fa17a3a0a3c4da80800000000000000
-      internalID: -8442908306705016078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_61
-      rect:
-        serializedVersion: 2
-        x: 390
-        y: 193
-        width: 9
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 14a83badc23d36440800000000000000
-      internalID: 4928014606874675777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_62
-      rect:
-        serializedVersion: 2
-        x: 421
-        y: 189
-        width: 9
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad1ef8d370309acd0800000000000000
-      internalID: -2546500784668810790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_63
-      rect:
-        serializedVersion: 2
-        x: 429
-        y: 193
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 14998151314add5e0800000000000000
-      internalID: -1883168667305731775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_64
-      rect:
-        serializedVersion: 2
-        x: 440
-        y: 190
-        width: 10
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 914edb42ef93ff9f0800000000000000
-      internalID: -432563275503377383
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_65
-      rect:
-        serializedVersion: 2
-        x: 450
-        y: 190
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0eb9e6a69857434c0800000000000000
-      internalID: -4308689710430118944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_66
-      rect:
-        serializedVersion: 2
-        x: 297
-        y: 175
-        width: 9
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5b769aca06ffe0350800000000000000
-      internalID: 5985001745500694453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_67
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 178
-        width: 8
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0b39f9e4eb4846f30800000000000000
-      internalID: 4567921874958259120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_68
-      rect:
-        serializedVersion: 2
-        x: 314
-        y: 180
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 633258811fdc727a0800000000000000
-      internalID: -6401921909901679818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_69
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 177
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 99101b345209f3ae0800000000000000
-      internalID: -1567375655577779815
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rooms_third_set_70
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 52
-        width: 481
-        height: 121
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 104194ba9cc7c07b0800000000000000
-      internalID: -5256689459444247551
+      spriteID: 7344ebf259244874ca8236583f1b5cf2
+      internalID: -726410223
       vertices: []
       indices: 
       edges: []
@@ -1888,7 +2092,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c45391bb0dfd2014086f6141c32b7378
     internalID: 0
     vertices: []
     indices: 
@@ -1898,77 +2102,86 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      rooms_third_set_0: -5802988910245044933
-      rooms_third_set_1: -3782288527756915322
-      rooms_third_set_10: 970649473722241383
-      rooms_third_set_11: -4151552261539788191
-      rooms_third_set_12: 8675683153513953960
-      rooms_third_set_13: -662176972545742092
-      rooms_third_set_14: 8482098341544182962
-      rooms_third_set_15: -6961170971371666194
-      rooms_third_set_16: 6870173973736068993
-      rooms_third_set_17: -348097211164766790
-      rooms_third_set_18: -4071790476901916728
-      rooms_third_set_19: -3519181426622324331
-      rooms_third_set_2: -6070712311024864578
-      rooms_third_set_20: -991455232257123961
-      rooms_third_set_21: 6075035596236541815
-      rooms_third_set_22: -8306643208427756840
-      rooms_third_set_23: 694890486544635541
-      rooms_third_set_24: -7272396766676626292
-      rooms_third_set_25: 4324500644498387567
-      rooms_third_set_26: 5625217720254690890
-      rooms_third_set_27: 623504677873858148
-      rooms_third_set_28: 1370020747148079291
-      rooms_third_set_29: 6929560913693808430
-      rooms_third_set_3: 3613851943988372269
-      rooms_third_set_30: 3057610165944795416
-      rooms_third_set_31: 1434106967391063179
-      rooms_third_set_32: -1698669919100883585
-      rooms_third_set_33: -6079568937129723357
-      rooms_third_set_34: 1770005269345597714
-      rooms_third_set_35: -7873288694106277786
-      rooms_third_set_36: -9095704269038854272
-      rooms_third_set_37: -5049200247415438398
-      rooms_third_set_38: -6322053099786056596
-      rooms_third_set_39: 132199970293461769
-      rooms_third_set_4: 3530530795238888049
-      rooms_third_set_40: -3348412914942901700
-      rooms_third_set_41: -3096408301523537777
-      rooms_third_set_42: 3634636396481288349
-      rooms_third_set_43: 7457596088987776894
-      rooms_third_set_44: 8532755750858251967
-      rooms_third_set_45: -2616255910718099329
-      rooms_third_set_46: 2343919539359414891
-      rooms_third_set_47: 6370894840210624812
-      rooms_third_set_48: -8585094902865646181
-      rooms_third_set_49: -2603018108726995956
-      rooms_third_set_5: 1180186691729442587
-      rooms_third_set_50: -537866471341803837
-      rooms_third_set_51: -1842466303092373620
-      rooms_third_set_52: 1765155246605711268
-      rooms_third_set_53: -8356318578033330369
-      rooms_third_set_54: -8889873754945786073
-      rooms_third_set_55: 809748213267790319
-      rooms_third_set_56: -5771891132330900755
-      rooms_third_set_57: -26478919015654076
-      rooms_third_set_58: -6287109065051671832
-      rooms_third_set_59: -1641232863740463785
-      rooms_third_set_6: 3521559768165237693
-      rooms_third_set_60: -8442908306705016078
-      rooms_third_set_61: 4928014606874675777
-      rooms_third_set_62: -2546500784668810790
-      rooms_third_set_63: -1883168667305731775
-      rooms_third_set_64: -432563275503377383
-      rooms_third_set_65: -4308689710430118944
-      rooms_third_set_66: 5985001745500694453
-      rooms_third_set_67: 4567921874958259120
-      rooms_third_set_68: -6401921909901679818
-      rooms_third_set_69: -1567375655577779815
-      rooms_third_set_7: 453715437354727494
-      rooms_third_set_70: -5256689459444247551
-      rooms_third_set_8: -2255828163878799167
-      rooms_third_set_9: -3387415928330006991
+      rooms_third_set 1_0: -1462743923937826022
+      rooms_third_set 1_1: -2570177561474284351
+      rooms_third_set 1_10: 1195075315634518004
+      rooms_third_set 1_11: 5539146139996764103
+      rooms_third_set 1_12: 8510690816897516670
+      rooms_third_set 1_13: 8823733854486710249
+      rooms_third_set 1_14: -5357451007751053904
+      rooms_third_set 1_15: -4893121609736711111
+      rooms_third_set 1_16: 1351525188803844788
+      rooms_third_set 1_17: 4188191900868195451
+      rooms_third_set 1_18: -8374488952108318757
+      rooms_third_set 1_19: 5675204516590528888
+      rooms_third_set 1_2: 1435995039081539389
+      rooms_third_set 1_20: 8852123870851929920
+      rooms_third_set 1_21: 1799262613888180755
+      rooms_third_set 1_22: -7061561658612703301
+      rooms_third_set 1_23: -1483677840369838595
+      rooms_third_set 1_24: -1915389885607099483
+      rooms_third_set 1_25: -3556339487627849848
+      rooms_third_set 1_26: -4283111539357341074
+      rooms_third_set 1_27: -7569202429909517276
+      rooms_third_set 1_28: 8461710317515892368
+      rooms_third_set 1_29: 3346222105311228038
+      rooms_third_set 1_3: -7526748724507873887
+      rooms_third_set 1_30: -5382455119426184789
+      rooms_third_set 1_31: 8898541171171162900
+      rooms_third_set 1_32: 991003424027278570
+      rooms_third_set 1_33: -8667323699321230341
+      rooms_third_set 1_34: -834826754102060889
+      rooms_third_set 1_35: 3139144246350655402
+      rooms_third_set 1_36: 3722206818148149201
+      rooms_third_set 1_37: 6320657991569166652
+      rooms_third_set 1_38: -2052972711609073135
+      rooms_third_set 1_39: 187045922042186147
+      rooms_third_set 1_4: 5793540910673805863
+      rooms_third_set 1_40: 8493937263042460866
+      rooms_third_set 1_41: 5523621006468929074
+      rooms_third_set 1_42: -6316295389733395011
+      rooms_third_set 1_43: -2975237081001752329
+      rooms_third_set 1_44: 2758594118038497430
+      rooms_third_set 1_45: 5984724990579165686
+      rooms_third_set 1_46: 2098977931674721492
+      rooms_third_set 1_47: 6199841167349174749
+      rooms_third_set 1_48: 4280808911784302965
+      rooms_third_set 1_49: 8044574487522293821
+      rooms_third_set 1_5: -7860796285070854373
+      rooms_third_set 1_50: -4984820257366876153
+      rooms_third_set 1_51: 2225295287205128690
+      rooms_third_set 1_52: -7501233058125867716
+      rooms_third_set 1_53: -4830642799288500369
+      rooms_third_set 1_54: -6697289723990416581
+      rooms_third_set 1_55: -2992985233124581400
+      rooms_third_set 1_56: -8889349010748842908
+      rooms_third_set 1_57: 4694425761339533632
+      rooms_third_set 1_58: -7341534679765956723
+      rooms_third_set 1_59: 1292412732521633168
+      rooms_third_set 1_6: 6535759218120203452
+      rooms_third_set 1_60: 430910078542735611
+      rooms_third_set 1_61: -8273021646686864085
+      rooms_third_set 1_62: -9062095059742548496
+      rooms_third_set 1_63: -6614023768992210456
+      rooms_third_set 1_64: 4127241806317550575
+      rooms_third_set 1_65: -4613153966885534872
+      rooms_third_set 1_66: -6322250607165214627
+      rooms_third_set 1_67: -350875174510821904
+      rooms_third_set 1_68: -6696039475645039258
+      rooms_third_set 1_69: -6469369409727765303
+      rooms_third_set 1_7: -8732258682296903908
+      rooms_third_set 1_70: 1074371321718633066
+      rooms_third_set 1_71: 6591413980330946052
+      rooms_third_set 1_72: 2897605716236042231
+      rooms_third_set 1_8: 9008097118619455566
+      rooms_third_set 1_9: -8791134008406543973
+      rooms_third_set_0: -1207765357
+      rooms_third_set_1: -866382722
+      rooms_third_set_2: -2055846763
+      rooms_third_set_3: 1182470171
+      rooms_third_set_4: 1746289565
+      rooms_third_set_5: -527093970
+      rooms_third_set_6: -726410223
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

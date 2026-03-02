@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 3bd89e7bd9000a740bdb093890b05630
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4428635919547845567
+    second: Midterm_MC_animations_0
+  - first:
+      213: -2764772652912902338
+    second: Midterm_MC_animations_1
+  - first:
+      213: -4375119801770774864
+    second: Midterm_MC_animations_2
+  - first:
+      213: 2562031858659382709
+    second: Midterm_MC_animations_3
+  - first:
+      213: 1173992759530789803
+    second: Midterm_MC_animations_4
+  - first:
+      213: 7152818019809923897
+    second: Midterm_MC_animations_5
+  - first:
+      213: -3944441912686267125
+    second: Midterm_MC_animations_6
+  - first:
+      213: -3568582111387697798
+    second: Midterm_MC_animations_7
+  - first:
+      213: 6749265351488265711
+    second: Midterm_MC_animations_8
+  - first:
+      213: 4363113016851374285
+    second: Midterm_MC_animations_9
+  - first:
+      213: -6086444628963417451
+    second: Midterm_MC_animations_10
+  - first:
+      213: -6531846420100524459
+    second: Midterm_MC_animations_11
+  - first:
+      213: 7095094190269198768
+    second: Midterm_MC_animations_12
+  - first:
+      213: 4333571249788144237
+    second: Midterm_MC_animations_13
+  - first:
+      213: -7029340047574359027
+    second: Midterm_MC_animations_14
+  - first:
+      213: -7318095345349053913
+    second: Midterm_MC_animations_15
+  - first:
+      213: 5826483992833134401
+    second: Midterm_MC_animations_16
+  - first:
+      213: -5073538990506076719
+    second: Midterm_MC_animations_17
+  - first:
+      213: 1486627227741823768
+    second: Midterm_MC_animations_18
+  - first:
+      213: 777867626724781587
+    second: Midterm_MC_animations_19
+  - first:
+      213: 3471805732592482255
+    second: Midterm_MC_animations_20
+  - first:
+      213: -5545068750013336356
+    second: Midterm_MC_animations_21
+  - first:
+      213: 915163412278699696
+    second: Midterm_MC_animations_22
+  - first:
+      213: -4251827605383463253
+    second: Midterm_MC_animations_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Midterm_MC_animations_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 235
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144b0d758135a82c0800000000000000
+      internalID: -4428635919547845567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 235
+        width: 29
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f796aabed81a9d0800000000000000
+      internalID: -2764772652912902338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 235
+        width: 29
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0beecad78b37843c0800000000000000
+      internalID: -4375119801770774864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 235
+        width: 29
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b550a6b66a2e8320800000000000000
+      internalID: 2562031858659382709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_4
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 235
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab96b8d13cda4010800000000000000
+      internalID: 1173992759530789803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_5
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 235
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93398cd771ae34360800000000000000
+      internalID: 7152818019809923897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 235
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b053c2d9af68249c0800000000000000
+      internalID: -3944441912686267125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_7
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 235
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d3ce21a79d97ec0800000000000000
+      internalID: -3568582111387697798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 155
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed5f4af3153aad50800000000000000
+      internalID: 6749265351488265711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 155
+        width: 29
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc02f4c0c24ec8c30800000000000000
+      internalID: 4363113016851374285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_10
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 155
+        width: 29
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5922d897bda988ba0800000000000000
+      internalID: -6086444628963417451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_11
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 155
+        width: 29
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5565082c9483a55a0800000000000000
+      internalID: -6531846420100524459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_12
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 155
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1feea1396d67260800000000000000
+      internalID: 7095094190269198768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_13
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 155
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ac7786710f32c30800000000000000
+      internalID: 4333571249788144237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 155
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0427e24874c27e90800000000000000
+      internalID: -7029340047574359027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_15
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 155
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722b70c6e07e07a90800000000000000
+      internalID: -7318095345349053913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 75
+        width: 20
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f815a4254dbd050800000000000000
+      internalID: 5826483992833134401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_17
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 75
+        width: 20
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d59acc3b2b2799b0800000000000000
+      internalID: -5073538990506076719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_18
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 75
+        width: 20
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813a9fe469f81a410800000000000000
+      internalID: 1486627227741823768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_19
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 75
+        width: 20
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ee4353c7a8bca00800000000000000
+      internalID: 777867626724781587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_20
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 5
+        width: 20
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7f65c5be45e2030800000000000000
+      internalID: 3471805732592482255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_21
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 5
+        width: 20
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4f554d955fb03b0800000000000000
+      internalID: -5545068750013336356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_22
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 5
+        width: 20
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b66e44564053bc00800000000000000
+      internalID: 915163412278699696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Midterm_MC_animations_23
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 5
+        width: 20
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae3beee1597ef4c0800000000000000
+      internalID: -4251827605383463253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Midterm_MC_animations_0: -4428635919547845567
+      Midterm_MC_animations_1: -2764772652912902338
+      Midterm_MC_animations_10: -6086444628963417451
+      Midterm_MC_animations_11: -6531846420100524459
+      Midterm_MC_animations_12: 7095094190269198768
+      Midterm_MC_animations_13: 4333571249788144237
+      Midterm_MC_animations_14: -7029340047574359027
+      Midterm_MC_animations_15: -7318095345349053913
+      Midterm_MC_animations_16: 5826483992833134401
+      Midterm_MC_animations_17: -5073538990506076719
+      Midterm_MC_animations_18: 1486627227741823768
+      Midterm_MC_animations_19: 777867626724781587
+      Midterm_MC_animations_2: -4375119801770774864
+      Midterm_MC_animations_20: 3471805732592482255
+      Midterm_MC_animations_21: -5545068750013336356
+      Midterm_MC_animations_22: 915163412278699696
+      Midterm_MC_animations_23: -4251827605383463253
+      Midterm_MC_animations_3: 2562031858659382709
+      Midterm_MC_animations_4: 1173992759530789803
+      Midterm_MC_animations_5: 7152818019809923897
+      Midterm_MC_animations_6: -3944441912686267125
+      Midterm_MC_animations_7: -3568582111387697798
+      Midterm_MC_animations_8: 6749265351488265711
+      Midterm_MC_animations_9: 4363113016851374285
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
