@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 48683ec3c36c08b4d9b7f235dbea4a15
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4595451696823513605
+    second: make_up+cookbook_page+key_0
+  - first:
+      213: 4643144323226798190
+    second: make_up+cookbook_page+key_1
+  - first:
+      213: -4679264490661200838
+    second: make_up+cookbook_page+key_2
+  - first:
+      213: 1010387848773271493
+    second: make_up+cookbook_page+key_3
+  - first:
+      213: 2451771217401478279
+    second: make_up+cookbook_page+key_4
+  - first:
+      213: -4237628668986107441
+    second: make_up+cookbook_page+key_5
+  - first:
+      213: -6177846298925495937
+    second: make_up+cookbook_page+key_6
+  - first:
+      213: 1207713208197009078
+    second: make_up+cookbook_page+key_7
+  - first:
+      213: 6034554798814451770
+    second: make_up+cookbook_page+key_8
+  - first:
+      213: 2473868319897426557
+    second: make_up+cookbook_page+key_9
+  - first:
+      213: -7264026362357174580
+    second: make_up+cookbook_page+key_10
+  - first:
+      213: 4565009869154483821
+    second: make_up+cookbook_page+key_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: make_up+cookbook_page+key_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 336
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502b1a378f256cf30800000000000000
+      internalID: 4595451696823513605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: make_up+cookbook_page+key_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 337
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e680eca5923cf6040800000000000000
+      internalID: 4643144323226798190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: make_up+cookbook_page+key_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 335
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c3a00dcb9ef0fb0800000000000000
+      internalID: -4679264490661200838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: make_up+cookbook_page+key_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 335
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf708b256e950e00800000000000000
+      internalID: 1010387848773271493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: make_up+cookbook_page+key_4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 335
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78cfdb3aee0760220800000000000000
+      internalID: 2451771217401478279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: make_up+cookbook_page+key_5
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 336
+        width: 14
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9521f6d2be035c0800000000000000
+      internalID: -4237628668986107441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: make_up+cookbook_page+key_6
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 336
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f798593d581e34aa0800000000000000
+      internalID: -6177846298925495937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: make_up+cookbook_page+key_7
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 304
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be412d93c8a2c010800000000000000
+      internalID: 1207713208197009078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: make_up+cookbook_page+key_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 293
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38d6f8fd9b0fb350800000000000000
+      internalID: 6034554798814451770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: make_up+cookbook_page+key_9
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 311
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a149c3122f45220800000000000000
+      internalID: 2473868319897426557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: make_up+cookbook_page+key_10
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 70
+        width: 364
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccea0a8828ef03b90800000000000000
+      internalID: -7264026362357174580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: make_up+cookbook_page+key_11
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 138
+        width: 91
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6efa1f1a4c2a5f30800000000000000
+      internalID: 4565009869154483821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      make_up+cookbook_page+key_0: 4595451696823513605
+      make_up+cookbook_page+key_1: 4643144323226798190
+      make_up+cookbook_page+key_10: -7264026362357174580
+      make_up+cookbook_page+key_11: 4565009869154483821
+      make_up+cookbook_page+key_2: -4679264490661200838
+      make_up+cookbook_page+key_3: 1010387848773271493
+      make_up+cookbook_page+key_4: 2451771217401478279
+      make_up+cookbook_page+key_5: -4237628668986107441
+      make_up+cookbook_page+key_6: -6177846298925495937
+      make_up+cookbook_page+key_7: 1207713208197009078
+      make_up+cookbook_page+key_8: 6034554798814451770
+      make_up+cookbook_page+key_9: 2473868319897426557
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
