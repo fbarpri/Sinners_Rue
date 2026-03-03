@@ -6,13 +6,12 @@ public class MenuTextSpawner : MonoBehaviour
     public GameObject textPrefab;
     public RectTransform canvasRect;
 
-    public float spawnInterval = 3f;
-    private float timer = 0f;
+    public float spawnInterval = 3;
+    private float timer = 0;
 
     void Update()
     {
         timer += Time.deltaTime;
-
         if (timer >= spawnInterval)
         {
             SpawnText();
