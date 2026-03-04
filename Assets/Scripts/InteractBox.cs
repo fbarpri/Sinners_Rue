@@ -1,24 +1,29 @@
 using UnityEngine;
 
-public class InteractBox : MonoBehaviour, Interactable
+public class InteractBox : MonoBehaviour
 {
-    public GameObject eye;          // drag your manually placed eye here
-    public string[] dialogueBefore;  // dialogue when object not yet found
-    public string[] dialogueAfter;   // dialogue after puzzle/object found
-    public bool hasFoundObject = false;
-
-    private DialogueManager dm;
+    public GameObject eye;
+    public bool condition = false;
     private bool playerInRange = false;
+
+    public MonoBehaviour interactableObj; // script instead of object
+
+    private Interactable interactable;
+    private DialogueManager dm;
 
     void Start()
     {
         dm = FindFirstObjectByType<DialogueManager>();
+        if (interactableObj != null)
+        {
+            interactable = interactableObj as Interactable;
+        }
 
         if (eye)
-            eye.SetActive(false); // start hidden
+            eye.SetActive(false);
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    protected void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
@@ -27,7 +32,7 @@ public class InteractBox : MonoBehaviour, Interactable
         }
     }
 
-    void OnTriggerExit2D(Collider2D other)
+    protected virtual void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
@@ -38,20 +43,13 @@ public class InteractBox : MonoBehaviour, Interactable
 
     void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.Space))
+        if (playerInRange && Input.GetKeyDown(KeyCode.Space) && !dm.IsActive())
         {
-            Interact();
+            if (interactable != null)
+            {
+            interactable.Interact(); 
+            }
         }
     }
 
-    public void Interact()
-    {
-        if (!dm) return;
-
-        // choose dialogue based on puzzle progress
-        if (hasFoundObject && dialogueAfter.Length > 0)
-            dm.StartDialogue(dialogueAfter);
-        else
-            dm.StartDialogue(dialogueBefore);
-    }
 }

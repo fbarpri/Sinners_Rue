@@ -6,6 +6,7 @@ public class DialogueManager : MonoBehaviour
 {
     public GameObject dialoguePanel;   // assign your Canvas panel (Screen Space - Camera)
     public TMP_Text dialogueText;      // TMP text inside panel
+    public bool dialogueFinished = false; // dialogue has ended 
 
     private Queue<string> sentences = new Queue<string>();
 
@@ -50,6 +51,7 @@ public class DialogueManager : MonoBehaviour
 
     private void EndDialogue()
     {
+        dialogueFinished = true;
         dialoguePanel.SetActive(false);
     }
 
