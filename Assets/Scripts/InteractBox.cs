@@ -1,19 +1,20 @@
 using UnityEngine;
 
-public class InteractBox : MonoBehaviour
+public class InteractBox : MonoBehaviour, Interactable  
 {
-    public GameObject eye;       // child object for the eye
-    public GameObject textBox;   // TMP panel for dialogue
-    public string message;       // optional message to show
+    public GameObject eye;
+    public GameObject textBox;
 
-    private bool playerInRange = false;
+ public void Interact()
+    {
+    textBox.SetActive(!textBox.activeSelf);
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("Player"))
         {
-            Debug.Log("PlayerInRange is true");
-            playerInRange = true;
+            other.GetComponent<PlayerMovement>().SetInteractable(this);
             eye.SetActive(true);
         }
     }
@@ -22,18 +23,9 @@ public class InteractBox : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-            Debug.Log("PlayerInRange is false");
-            playerInRange = false;
+            other.GetComponent<PlayerMovement>().SetInteractable(null);
             eye.SetActive(false);
             textBox.SetActive(false);
-        }
-    }
-
-    void Update()
-    {
-        if(playerInRange && Input.GetKeyDown(KeyCode.Space))
-        {
-            textBox.SetActive(!textBox.activeSelf);
         }
     }
 }
