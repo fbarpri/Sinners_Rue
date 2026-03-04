@@ -1,31 +1,57 @@
 using UnityEngine;
 
-public class InteractBox : MonoBehaviour, Interactable  
+public class InteractBox : MonoBehaviour, Interactable
 {
-    public GameObject eye;
-    public GameObject textBox;
+    public GameObject eye;          // drag your manually placed eye here
+    public string[] dialogueBefore;  // dialogue when object not yet found
+    public string[] dialogueAfter;   // dialogue after puzzle/object found
+    public bool hasFoundObject = false;
 
- public void Interact()
+    private DialogueManager dm;
+    private bool playerInRange = false;
+
+    void Start()
     {
-    textBox.SetActive(!textBox.activeSelf);
+        dm = FindFirstObjectByType<DialogueManager>();
+
+        if (eye)
+            eye.SetActive(false); // start hidden
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            other.GetComponent<PlayerMovement>().SetInteractable(this);
-            eye.SetActive(true);
+            playerInRange = true;
+            if (eye) eye.SetActive(true);
         }
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            other.GetComponent<PlayerMovement>().SetInteractable(null);
-            eye.SetActive(false);
-            textBox.SetActive(false);
+            playerInRange = false;
+            if (eye) eye.SetActive(false);
         }
+    }
+
+    void Update()
+    {
+        if (playerInRange && Input.GetKeyDown(KeyCode.Space))
+        {
+            Interact();
+        }
+    }
+
+    public void Interact()
+    {
+        if (!dm) return;
+
+        // choose dialogue based on puzzle progress
+        if (hasFoundObject && dialogueAfter.Length > 0)
+            dm.StartDialogue(dialogueAfter);
+        else
+            dm.StartDialogue(dialogueBefore);
     }
 }

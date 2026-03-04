@@ -1,29 +1,39 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
-    public Text dialogueText;        // UI Text component
-    public GameObject dialogueBox;   // UI Panel for dialogue
-    private Queue<string> sentences; // Sentences in current dialogue
+    public GameObject dialoguePanel;   // assign your Canvas panel (Screen Space - Camera)
+    public TMP_Text dialogueText;      // TMP text inside panel
+
+    private Queue<string> sentences = new Queue<string>();
 
     void Start()
     {
-        sentences = new Queue<string>();
-        dialogueBox.SetActive(false);
+        dialoguePanel.SetActive(false);
     }
 
-    public void StartDialogue(string[] dialogue)
+    public void StartDialogue(string[] dialogueLines)
     {
-        dialogueBox.SetActive(true);
+        if (dialogueLines.Length == 0) return;
+
         sentences.Clear();
-        foreach (string s in dialogue)
-        {
+        foreach (string s in dialogueLines)
             sentences.Enqueue(s);
-        }
+
+        dialoguePanel.SetActive(true);
         DisplayNextSentence();
+    }
+
+    void Update()
+    {
+        if (!dialoguePanel.activeSelf) return;
+
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            DisplayNextSentence();
+        }
     }
 
     public void DisplayNextSentence()
@@ -33,12 +43,19 @@ public class DialogueManager : MonoBehaviour
             EndDialogue();
             return;
         }
+
         string sentence = sentences.Dequeue();
         dialogueText.text = sentence;
     }
 
-    void EndDialogue()
+    private void EndDialogue()
     {
-        dialogueBox.SetActive(false);
+        dialoguePanel.SetActive(false);
+    }
+
+    // Allows other scripts (like PlayerMovement) to check if dialogue is open
+    public bool IsActive()
+    {
+        return dialoguePanel.activeSelf;
     }
 }
