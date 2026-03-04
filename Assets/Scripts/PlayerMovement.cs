@@ -8,15 +8,31 @@ public class PlayerMovement : MonoBehaviour
     private InputAction movementAction;
     public InputAction interactAction;
     private Interactable currentInteractable; // interactable that player is standing near
+    private SpriteRenderer spriteRenderer;
+    private Animator _animator;
     private void Awake()
     {
         movementAction = InputSystem.actions.FindAction("Move");
         interactAction = InputSystem.actions.FindAction("Interact");
         rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        _animator = GetComponent<Animator>();
     }
     private void Update()
     {
         movement = movementAction.ReadValue<Vector2>();
+        // true if player is pressing any movement key
+        bool moving = movement.x != 0 || movement.y != 0;
+        _animator.SetBool("isMoving", moving);
+         if (movement.x < 0)
+        {
+            spriteRenderer.flipX = true;  // face left
+        }
+        else if (movement.x > 0)
+        {
+            spriteRenderer.flipX = false; // face right
+        }
+
         if (interactAction.triggered && currentInteractable != null)
         {
             currentInteractable.Interact();
