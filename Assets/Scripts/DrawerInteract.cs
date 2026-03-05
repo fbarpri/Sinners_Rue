@@ -9,9 +9,8 @@ public class DrawerInteract : MonoBehaviour, Interactable
     public string[] dialogueBeforeNotice;
     public string[] dialogueAfterNotice;
 
-    private bool hasInteractedWhileLocked = false;
+    private bool FirstInteraction = true;
     private bool hasOpenedDrawer = false;
-    private bool hasNoticedInside = false;
     private SpriteRenderer sr;
     private DialogueManager dm;
     private bool playerInRange = false;
@@ -28,48 +27,42 @@ public class DrawerInteract : MonoBehaviour, Interactable
     public void Interact()
     {
         Debug.Log(
-    "Drawer State → " +
     "hasOpenedDrawer: " + hasOpenedDrawer +
-    " | hasNoticedInside: " + hasNoticedInside +
-    " | hasInteractedWhileLocked: " + hasInteractedWhileLocked +
-    " | hasKey: " + (inventory != null && inventory.hasKey)
+    " | FirstInteraction: " + FirstInteraction
 );
 
         if (!dm) return;
 
-        // 🔒 Drawer still locked
-        if (!hasOpenedDrawer)
+        if (!hasOpenedDrawer) // drawer locked
         {
-            if (!inventory.hasKey)
+            if (!inventory.hasKey) // no key
             {
-                // Player tries without key
+                // [Initial, No Key]
                 dm.StartDialogue(dialogueNoKeyFirst);
-                hasInteractedWhileLocked = true;
+                FirstInteraction = false;
                 return;
-            }
-
-            // Player has key
-            if (!hasInteractedWhileLocked)
+            } else // has key
             {
-                // Path 2: Had key before ever touching drawer
-                dm.StartDialogue(dialogueBeforeNotice);
-            }
-            else
-            {
-                // Path 1: Came back with key after trying before
-                dm.StartDialogue(dialogueKeyFirst);
-            }
-
-            sr.sprite = openedDrawer;
-            hasOpenedDrawer = true;
-            return;
-        }
-
-        // 👀 Drawer open, notices something
-        if (!hasNoticedInside)
+                if (FirstInteraction) // [First, Has Key]
+                {
+                    dm.StartDialogue(dialogueKeyFirst);
+                    FirstInteraction = false;
+                    sr.sprite = openedDrawer;
+                    hasOpenedDrawer = true;
+                    return;
+                } else // [Second, Has Key]
+                {
+                    dm.StartDialogue(dialogueBeforeNotice);
+                    FirstInteraction = false;
+                    sr.sprite = openedDrawer;
+                    hasOpenedDrawer = true;
+                    return;
+                }
+            } 
+        } else
         {
-            dm.StartDialogue(dialogueBeforeNotice);
-            hasNoticedInside = true;
+            dm.StartDialogue(dialogueAfterNotice);
+            closed_mail.SetActive(true);
             return;
         }
     }
