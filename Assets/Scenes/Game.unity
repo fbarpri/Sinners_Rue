@@ -1492,12 +1492,10 @@ MonoBehaviour:
   - "Oh wow. I didn\u2019t actually expect that random key would actually unlock
     this. There seems to be something inside. Maybe I should take a look."
   dialogueAfterNotice:
-  - "Oh, it\u2019s some mail I got a couple of weeks ago from Jenna. I haven\u2019t
-    even seen her for years now."
-  - "I wonder why she even bothers sending letters anymore. Sure, we used to hang
-    out in college but now we\u2019ve drifted apart."
-  - "Still\u2026 I\u2019m curious what the letter says. Maybe if I find some scissors
-    somewhere I\u2019ll try to open it and see.  "
+  - "It seems to be a\u2026 recipe? Might be from when I tried to get into cooking,
+    I can barely even read the text, it\u2019s so old. "
+  - "It seems to have a temperature on it though. Funny it's the only thing that\u2019s
+    visible. "
 --- !u!1 &698640470
 GameObject:
   m_ObjectHideFlags: 0
@@ -3056,13 +3054,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1128545885}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.27, y: -3.87, z: 0}
-  m_LocalScale: {x: 0.9649022, y: 0.98295945, z: 1}
+  m_LocalRotation: {x: -0.00000037410993, y: 0.000000017242607, z: 0.046004776, w: -0.99894124}
+  m_LocalPosition: {x: -2.7, y: -0.63, z: 0}
+  m_LocalScale: {x: 2.610075, y: 2.7859945, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1059579747}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -5.274}
 --- !u!212 &1128545887
 SpriteRenderer:
   serializedVersion: 2
@@ -3110,9 +3108,9 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 941282836518432968, guid: 021db6d1743611948983177a6123862e, type: 3}
+  m_Sprite: {fileID: 4565009869154483821, guid: 48683ec3c36c08b4d9b7f235dbea4a15, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

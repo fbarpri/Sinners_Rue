@@ -143,7 +143,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: family_photo_puzzle_0
+      name: chair_l_living
       rect:
         serializedVersion: 2
         x: 9
@@ -165,7 +165,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: family_photo_puzzle_1
+      name: chair_r_living
       rect:
         serializedVersion: 2
         x: 47
@@ -187,7 +187,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: open_mail
+      name: open_season's_greetings
       rect:
         serializedVersion: 2
         x: 128
@@ -209,7 +209,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: family_photo_puzzle_3
+      name: table_living
       rect:
         serializedVersion: 2
         x: 25
@@ -231,7 +231,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: family_photo_puzzle_4
+      name: family_photo_frame
       rect:
         serializedVersion: 2
         x: 81
@@ -278,7 +278,7 @@ TextureImporter:
       name: closed_mail
       rect:
         serializedVersion: 2
-        x: 128
+        x: 129
         y: 115
         width: 110
         height: 59
@@ -398,17 +398,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      chair_l_living: 4414004489010340871
+      chair_r_living: 6875185289044521408
       closed_mail: 941282836518432968
       complete_family_photo: 4292156734307556530
       cut_photo: 2989677146848356056
-      family_photo_puzzle_0: 4414004489010340871
-      family_photo_puzzle_1: 6875185289044521408
-      family_photo_puzzle_3: 6821066981208058501
-      family_photo_puzzle_4: -712754850272306625
+      family_photo_frame: -712754850272306625
       lover_revealed: 3450865668069908877
       lover_scribbles: -2955471538574603112
-      open_mail: 477712733477472607
+      open_season's_greetings: 477712733477472607
       rip_husband: 3781033131083200305
+      table_living: 6821066981208058501
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

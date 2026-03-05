@@ -620,7 +620,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_first_set 1_18
+      name: oven_off
       rect:
         serializedVersion: 2
         x: 297
@@ -1064,7 +1064,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_first_set_0
+      name: oven_on
       rect:
         serializedVersion: 2
         x: 244
@@ -1099,6 +1099,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      oven_off: 1817520831682859087
+      oven_on: -37535681
       rooms_first_set 1_0: -2142215711649094549
       rooms_first_set 1_1: 5247204918211859537
       rooms_first_set 1_10: -679304655528297927
@@ -1109,7 +1111,6 @@ TextureImporter:
       rooms_first_set 1_15: -7350325760183107271
       rooms_first_set 1_16: -5785606169034305065
       rooms_first_set 1_17: 4160723143428527765
-      rooms_first_set 1_18: 1817520831682859087
       rooms_first_set 1_19: 5924203079992935416
       rooms_first_set 1_2: 6692342831382420842
       rooms_first_set 1_20: -879495049820369152
@@ -1137,7 +1138,6 @@ TextureImporter:
       rooms_first_set 1_7: 4305808070262757616
       rooms_first_set 1_8: 2350907094028500772
       rooms_first_set 1_9: -3053424141871069635
-      rooms_first_set_0: -37535681
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

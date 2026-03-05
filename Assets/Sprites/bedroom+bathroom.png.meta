@@ -792,7 +792,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_25
+      name: flowers
       rect:
         serializedVersion: 2
         x: 381
@@ -814,7 +814,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_26
+      name: candle_on
       rect:
         serializedVersion: 2
         x: 217
@@ -836,7 +836,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_27
+      name: candle_off
       rect:
         serializedVersion: 2
         x: 232
@@ -858,7 +858,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_28
+      name: closed_mail
       rect:
         serializedVersion: 2
         x: 252
@@ -880,7 +880,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_29
+      name: box
       rect:
         serializedVersion: 2
         x: 274
@@ -902,7 +902,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_30
+      name: empty_food_plate
       rect:
         serializedVersion: 2
         x: 383
@@ -924,7 +924,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_31
+      name: scissors_1
       rect:
         serializedVersion: 2
         x: 253
@@ -946,7 +946,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_32
+      name: sink_full
       rect:
         serializedVersion: 2
         x: 299
@@ -968,7 +968,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_33
+      name: food_2
       rect:
         serializedVersion: 2
         x: 340
@@ -990,7 +990,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_34
+      name: empty_glass
       rect:
         serializedVersion: 2
         x: 358
@@ -1034,7 +1034,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_36
+      name: food_3
       rect:
         serializedVersion: 2
         x: 383
@@ -1100,7 +1100,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_39
+      name: food_1
       rect:
         serializedVersion: 2
         x: 340
@@ -1122,7 +1122,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_40
+      name: open_scissors
       rect:
         serializedVersion: 2
         x: 387
@@ -1144,7 +1144,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_41
+      name: plant_small
       rect:
         serializedVersion: 2
         x: 342
@@ -1166,7 +1166,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_42
+      name: empty_wine_glass
       rect:
         serializedVersion: 2
         x: 358
@@ -1188,7 +1188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_43
+      name: full_wine_glass
       rect:
         serializedVersion: 2
         x: 372
@@ -1228,41 +1228,41 @@ TextureImporter:
       bedroom_bg: 2960356997927294314
       bedside_drawers: -6898231216650263227
       big_towel: -303810216265702563
+      box: -1461030089761563365
+      candle_off: 1912664842904898079
+      candle_on: 7806208092350395056
       closed curtain: 7891204609423968596
+      closed_mail: -8475066386161055071
       closet: 6444350374831072463
+      empty_food_plate: 1487395098047522297
+      empty_glass: 5123801579990405493
+      empty_wine_glass: -5452077725975867631
+      flowers: -8598903133566856167
+      food_1: 7260474812036724634
+      food_2: -8850223172981514119
+      food_3: -3721832316922090550
+      full_wine_glass: -1925661110281893014
       furnace_off: -7711455215102347543
       furnace_on: -7755400447985402022
       furnace_on_empty: -8607835401386736639
       grandfather_clock: 8989186989433145498
       open_curtain: 1111425337783740654
+      open_scissors: -4321545814275197424
+      plant_small: 6643894769989430778
       rooms_second_set 1_10: -612732503246851896
       rooms_second_set 1_14: 6229052071388297514
       rooms_second_set 1_18: -927391678647859271
       rooms_second_set 1_20: -8423137756786817282
       rooms_second_set 1_21: -3075771234352079809
       rooms_second_set 1_24: 2636935845825986131
-      rooms_second_set 1_25: -8598903133566856167
-      rooms_second_set 1_26: 7806208092350395056
-      rooms_second_set 1_27: 1912664842904898079
-      rooms_second_set 1_28: -8475066386161055071
-      rooms_second_set 1_29: -1461030089761563365
-      rooms_second_set 1_30: 1487395098047522297
-      rooms_second_set 1_31: -1420799233772779246
-      rooms_second_set 1_32: 4157728499644736341
-      rooms_second_set 1_33: -8850223172981514119
-      rooms_second_set 1_34: 5123801579990405493
       rooms_second_set 1_35: -675811398102303520
-      rooms_second_set 1_36: -3721832316922090550
       rooms_second_set 1_37: 2845627120364020980
       rooms_second_set 1_38: 2416299141695031150
-      rooms_second_set 1_39: 7260474812036724634
-      rooms_second_set 1_40: -4321545814275197424
-      rooms_second_set 1_41: 6643894769989430778
-      rooms_second_set 1_42: -5452077725975867631
-      rooms_second_set 1_43: -1925661110281893014
       rooms_second_set 1_6: -8302930067711523416
       rooms_second_set 1_8: -9128910777209841379
+      scissors_1: -1420799233772779246
       sink: -5066991365112328129
+      sink_full: 4157728499644736341
       small_bookshelf: 8757576671096597416
       smaller_clost: -3975345327289115680
       towel: -4106393189516356919
