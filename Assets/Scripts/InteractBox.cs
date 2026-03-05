@@ -3,7 +3,6 @@ using UnityEngine;
 public class InteractBox : MonoBehaviour
 {
     public GameObject eye;
-    public bool condition = false;
     private bool playerInRange = false;
 
     public MonoBehaviour interactableObj; // script instead of object
@@ -13,10 +12,11 @@ public class InteractBox : MonoBehaviour
 
     void Start()
     {
-        dm = FindFirstObjectByType<DialogueManager>();
+        dm = FindFirstObjectByType<DialogueManager>(); // doing this so cant jump to second interactions while in first
         if (interactableObj != null)
         {
             interactable = interactableObj as Interactable;
+            if (interactable == null) Debug.LogError("Assigned object does not implement Interactable!");
         }
 
         if (eye)

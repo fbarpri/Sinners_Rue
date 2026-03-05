@@ -151,7 +151,7 @@ TextureImporter:
         width: 18
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -173,7 +173,7 @@ TextureImporter:
         width: 18
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -187,7 +187,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: family_photo_puzzle_2
+      name: open_mail
       rect:
         serializedVersion: 2
         x: 128
@@ -195,7 +195,7 @@ TextureImporter:
         width: 110
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -217,7 +217,7 @@ TextureImporter:
         width: 42
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -239,7 +239,7 @@ TextureImporter:
         width: 12
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -253,7 +253,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: family_photo_puzzle_5
+      name: complete_family_photo
       rect:
         serializedVersion: 2
         x: 7
@@ -261,7 +261,7 @@ TextureImporter:
         width: 110
         height: 127
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,7 +275,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: family_photo_puzzle_6
+      name: closed_mail
       rect:
         serializedVersion: 2
         x: 128
@@ -283,7 +283,7 @@ TextureImporter:
         width: 110
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -297,7 +297,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: family_photo_puzzle_7
+      name: rip_husband
       rect:
         serializedVersion: 2
         x: 253
@@ -305,7 +305,7 @@ TextureImporter:
         width: 31
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -319,7 +319,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: family_photo_puzzle_8
+      name: cut_photo
       rect:
         serializedVersion: 2
         x: 298
@@ -327,7 +327,7 @@ TextureImporter:
         width: 94
         height: 111
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -341,7 +341,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: family_photo_puzzle_9
+      name: lover_revealed
       rect:
         serializedVersion: 2
         x: 165
@@ -349,7 +349,7 @@ TextureImporter:
         width: 84
         height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -363,7 +363,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: family_photo_puzzle_10
+      name: lover_scribbles
       rect:
         serializedVersion: 2
         x: 278
@@ -371,7 +371,7 @@ TextureImporter:
         width: 84
         height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -388,7 +388,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b5577619439114ef9b33fbfeb763435f
     internalID: 0
     vertices: []
     indices: 
@@ -398,17 +398,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      closed_mail: 941282836518432968
+      complete_family_photo: 4292156734307556530
+      cut_photo: 2989677146848356056
       family_photo_puzzle_0: 4414004489010340871
       family_photo_puzzle_1: 6875185289044521408
-      family_photo_puzzle_10: -2955471538574603112
-      family_photo_puzzle_2: 477712733477472607
       family_photo_puzzle_3: 6821066981208058501
       family_photo_puzzle_4: -712754850272306625
-      family_photo_puzzle_5: 4292156734307556530
-      family_photo_puzzle_6: 941282836518432968
-      family_photo_puzzle_7: 3781033131083200305
-      family_photo_puzzle_8: 2989677146848356056
-      family_photo_puzzle_9: 3450865668069908877
+      lover_revealed: 3450865668069908877
+      lover_scribbles: -2955471538574603112
+      open_mail: 477712733477472607
+      rip_husband: 3781033131083200305
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
