@@ -32,8 +32,6 @@ public class OvenDial : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
-            RotateDial(-1);
 
         if (Input.GetKeyDown(KeyCode.D))
             RotateDial(1);

@@ -296,7 +296,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_first_set_updated_3
+      name: open_window
       rect:
         serializedVersion: 2
         x: 147
@@ -1126,6 +1126,7 @@ TextureImporter:
       closed_drawer: -2467370349347092853
       large_bookshelf: 6357852600145424236
       open_drawer: 7785607249659447786
+      open_window: -5458500939842716888
       oven_on: 649813348802389528
       rooms_first_set_updated_0: -5578625420826757162
       rooms_first_set_updated_1: -8358824285891515362
@@ -1149,7 +1150,6 @@ TextureImporter:
       rooms_first_set_updated_27: 3407445737939110817
       rooms_first_set_updated_28: -1761395038716106464
       rooms_first_set_updated_29: -4097289905223942579
-      rooms_first_set_updated_3: -5458500939842716888
       rooms_first_set_updated_30: 4312527732659556301
       rooms_first_set_updated_31: 8453604273595206225
       rooms_first_set_updated_32: -9059365831347904862
