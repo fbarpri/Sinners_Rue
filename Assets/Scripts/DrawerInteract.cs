@@ -4,10 +4,10 @@ public class DrawerInteract : MonoBehaviour, Interactable
 {
     public Sprite openedDrawer;
     public GameObject closed_mail;
-    public string[] dialogueNoKeyFirst;
-    public string[] dialogueKeyFirst;
-    public string[] dialogueBeforeNotice;
-    public string[] dialogueAfterNotice;
+    public string[] initialNoKey;
+    public string[] secondHasKey;
+    public string[] initialHasKey;
+    public string[] finalHasKey;
 
     private bool FirstInteraction = true;
     private bool hasOpenedDrawer = false;
@@ -26,11 +26,6 @@ public class DrawerInteract : MonoBehaviour, Interactable
     
     public void Interact()
     {
-        Debug.Log(
-    "hasOpenedDrawer: " + hasOpenedDrawer +
-    " | FirstInteraction: " + FirstInteraction
-);
-
         if (!dm) return;
 
         if (!hasOpenedDrawer) // drawer locked
@@ -38,21 +33,21 @@ public class DrawerInteract : MonoBehaviour, Interactable
             if (!inventory.hasKey) // no key
             {
                 // [Initial, No Key]
-                dm.StartDialogue(dialogueNoKeyFirst);
+                dm.StartDialogue(initialNoKey);
                 FirstInteraction = false;
                 return;
             } else // has key
             {
                 if (FirstInteraction) // [First, Has Key]
                 {
-                    dm.StartDialogue(dialogueKeyFirst);
+                    dm.StartDialogue(initialHasKey);
                     FirstInteraction = false;
                     sr.sprite = openedDrawer;
                     hasOpenedDrawer = true;
                     return;
                 } else // [Second, Has Key]
                 {
-                    dm.StartDialogue(dialogueBeforeNotice);
+                    dm.StartDialogue(secondHasKey);
                     FirstInteraction = false;
                     sr.sprite = openedDrawer;
                     hasOpenedDrawer = true;
@@ -61,7 +56,7 @@ public class DrawerInteract : MonoBehaviour, Interactable
             } 
         } else
         {
-            dm.StartDialogue(dialogueAfterNotice);
+            dm.StartDialogue(finalHasKey);
             closed_mail.SetActive(true);
             return;
         }

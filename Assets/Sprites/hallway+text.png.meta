@@ -1935,7 +1935,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_third_set_0
+      name: LUST
       rect:
         serializedVersion: 2
         x: 294
@@ -1943,7 +1943,7 @@ TextureImporter:
         width: 41
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1957,7 +1957,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_third_set_1
+      name: GREED
       rect:
         serializedVersion: 2
         x: 291
@@ -1965,7 +1965,7 @@ TextureImporter:
         width: 46
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1979,7 +1979,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_third_set_2
+      name: ENVY
       rect:
         serializedVersion: 2
         x: 293
@@ -1987,7 +1987,7 @@ TextureImporter:
         width: 41
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2001,7 +2001,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_third_set_3
+      name: GLUTTONY
       rect:
         serializedVersion: 2
         x: 345
@@ -2009,7 +2009,7 @@ TextureImporter:
         width: 71
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2023,7 +2023,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_third_set_4
+      name: WRATH
       rect:
         serializedVersion: 2
         x: 350
@@ -2031,7 +2031,7 @@ TextureImporter:
         width: 52
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2045,7 +2045,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_third_set_5
+      name: SLOTH
       rect:
         serializedVersion: 2
         x: 423
@@ -2053,7 +2053,7 @@ TextureImporter:
         width: 54
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2067,7 +2067,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_third_set_6
+      name: PRIDE
       rect:
         serializedVersion: 2
         x: 419
@@ -2075,7 +2075,7 @@ TextureImporter:
         width: 43
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2102,6 +2102,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      ENVY: -2055846763
+      GLUTTONY: 1182470171
+      GREED: -866382722
+      LUST: -1207765357
+      PRIDE: -726410223
+      SLOTH: -527093970
+      WRATH: 1746289565
       rooms_third_set 1_0: -1462743923937826022
       rooms_third_set 1_1: -2570177561474284351
       rooms_third_set 1_10: 1195075315634518004
@@ -2175,13 +2182,6 @@ TextureImporter:
       rooms_third_set 1_72: 2897605716236042231
       rooms_third_set 1_8: 9008097118619455566
       rooms_third_set 1_9: -8791134008406543973
-      rooms_third_set_0: -1207765357
-      rooms_third_set_1: -866382722
-      rooms_third_set_2: -2055846763
-      rooms_third_set_3: 1182470171
-      rooms_third_set_4: 1746289565
-      rooms_third_set_5: -527093970
-      rooms_third_set_6: -726410223
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

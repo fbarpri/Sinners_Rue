@@ -18,7 +18,6 @@ public class InteractBox : MonoBehaviour
             interactable = interactableObj as Interactable;
             if (interactable == null) Debug.LogError("Assigned object does not implement Interactable!");
         }
-
         if (eye)
             eye.SetActive(false);
     }
@@ -51,5 +50,7 @@ public class InteractBox : MonoBehaviour
             }
         }
     }
+
+    
 
 }
