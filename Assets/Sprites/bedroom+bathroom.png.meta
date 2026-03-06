@@ -264,7 +264,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: closet
+      name: closet_open
       rect:
         serializedVersion: 2
         x: 309
@@ -286,7 +286,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: smaller_clost
+      name: closet_medium
       rect:
         serializedVersion: 2
         x: 376
@@ -308,7 +308,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sink
+      name: sink_empty
       rect:
         serializedVersion: 2
         x: 322
@@ -330,7 +330,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: towel
+      name: hand_towel
       rect:
         serializedVersion: 2
         x: 4
@@ -374,7 +374,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_6
+      name: closet_closed
       rect:
         serializedVersion: 2
         x: 66
@@ -418,7 +418,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_8
+      name: bathroom_mirror
       rect:
         serializedVersion: 2
         x: 154
@@ -440,7 +440,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: big_towel
+      name: bath_towel
       rect:
         serializedVersion: 2
         x: 191
@@ -462,7 +462,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_10
+      name: bathtub_empty
       rect:
         serializedVersion: 2
         x: 232
@@ -484,7 +484,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: closed curtain
+      name: curtain_closed
       rect:
         serializedVersion: 2
         x: 284
@@ -506,7 +506,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: open_curtain
+      name: curtain_open
       rect:
         serializedVersion: 2
         x: 345
@@ -616,7 +616,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bathroom
+      name: toilet_empty
       rect:
         serializedVersion: 2
         x: 252
@@ -638,7 +638,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_18
+      name: bg_bathroom
       rect:
         serializedVersion: 2
         x: 0
@@ -660,7 +660,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: furnace_on
+      name: furnace_on_envelope
       rect:
         serializedVersion: 2
         x: 209
@@ -682,7 +682,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_20
+      name: drawing
       rect:
         serializedVersion: 2
         x: 255
@@ -704,7 +704,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_21
+      name: toilet_paper
       rect:
         serializedVersion: 2
         x: 278
@@ -770,7 +770,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_24
+      name: hallway_door_carpet
       rect:
         serializedVersion: 2
         x: 249
@@ -880,7 +880,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: box
+      name: box_small
       rect:
         serializedVersion: 2
         x: 274
@@ -902,7 +902,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: empty_food_plate
+      name: food_plate_empty
       rect:
         serializedVersion: 2
         x: 383
@@ -1012,7 +1012,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_35
+      name: wine_glass_full_2
       rect:
         serializedVersion: 2
         x: 371
@@ -1056,7 +1056,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_37
+      name: bathtub_full
       rect:
         serializedVersion: 2
         x: 208
@@ -1078,7 +1078,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_second_set 1_38
+      name: toilet_full
       rect:
         serializedVersion: 2
         x: 260
@@ -1188,7 +1188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: full_wine_glass
+      name: wine_glass_full_1
       rect:
         serializedVersion: 2
         x: 372
@@ -1223,50 +1223,51 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bathroom: 2455245703744889978
+      _envel: -7755400447985402022
+      bath_towel: -303810216265702563
+      bathroom_mirror: -9128910777209841379
+      bathtub_empty: -612732503246851896
+      bathtub_full: 2845627120364020980
       bed: -3965370572431497411
       bedroom_bg: 2960356997927294314
       bedside_drawers: -6898231216650263227
-      big_towel: -303810216265702563
-      box: -1461030089761563365
+      bg_bathroom: -927391678647859271
+      box_small: -1461030089761563365
       candle_off: 1912664842904898079
       candle_on: 7806208092350395056
-      closed curtain: 7891204609423968596
       closed_mail: -8475066386161055071
-      closet: 6444350374831072463
-      empty_food_plate: 1487395098047522297
+      closet_closed: -8302930067711523416
+      closet_medium: -3975345327289115680
+      closet_open: 6444350374831072463
+      curtain_closed: 7891204609423968596
+      curtain_open: 1111425337783740654
+      drawing: -8423137756786817282
       empty_glass: 5123801579990405493
       empty_wine_glass: -5452077725975867631
       flowers: -8598903133566856167
       food_1: 7260474812036724634
       food_2: -8850223172981514119
       food_3: -3721832316922090550
-      full_wine_glass: -1925661110281893014
+      food_plate_empty: 1487395098047522297
       furnace_off: -7711455215102347543
-      furnace_on: -7755400447985402022
       furnace_on_empty: -8607835401386736639
+      furnace_on_envelope: -7755400447985402022
       grandfather_clock: 8989186989433145498
-      open_curtain: 1111425337783740654
+      hallway_door_carpet: 2636935845825986131
+      hand_towel: -4106393189516356919
       open_scissors: -4321545814275197424
       plant_small: 6643894769989430778
-      rooms_second_set 1_10: -612732503246851896
       rooms_second_set 1_14: 6229052071388297514
-      rooms_second_set 1_18: -927391678647859271
-      rooms_second_set 1_20: -8423137756786817282
-      rooms_second_set 1_21: -3075771234352079809
-      rooms_second_set 1_24: 2636935845825986131
-      rooms_second_set 1_35: -675811398102303520
-      rooms_second_set 1_37: 2845627120364020980
-      rooms_second_set 1_38: 2416299141695031150
-      rooms_second_set 1_6: -8302930067711523416
-      rooms_second_set 1_8: -9128910777209841379
       scissors_1: -1420799233772779246
-      sink: -5066991365112328129
+      sink_empty: -5066991365112328129
       sink_full: 4157728499644736341
       small_bookshelf: 8757576671096597416
-      smaller_clost: -3975345327289115680
-      towel: -4106393189516356919
+      toilet_empty: 2455245703744889978
+      toilet_full: 2416299141695031150
+      toilet_paper: -3075771234352079809
       vanity: -7313010071505042393
+      wine_glass_full_1: -1925661110281893014
+      wine_glass_full_2: -675811398102303520
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

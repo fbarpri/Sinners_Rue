@@ -813,7 +813,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_third_set 1_22
+      name: hallway_door_random
       rect:
         serializedVersion: 2
         x: 21
@@ -835,7 +835,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_third_set 1_23
+      name: hallway_door_rue
       rect:
         serializedVersion: 2
         x: 69
@@ -1891,7 +1891,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_third_set 1_71
+      name: cabinet_open_left
       rect:
         serializedVersion: 2
         x: 105
@@ -1913,7 +1913,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rooms_third_set 1_72
+      name: wine_spilt
       rect:
         serializedVersion: 2
         x: 159
@@ -2109,6 +2109,9 @@ TextureImporter:
       PRIDE: -726410223
       SLOTH: -527093970
       WRATH: 1746289565
+      cabinet_open_left: 6591413980330946052
+      hallway_door_random: -7061561658612703301
+      hallway_door_rue: -1483677840369838595
       rooms_third_set 1_0: -1462743923937826022
       rooms_third_set 1_1: -2570177561474284351
       rooms_third_set 1_10: 1195075315634518004
@@ -2124,8 +2127,6 @@ TextureImporter:
       rooms_third_set 1_2: 1435995039081539389
       rooms_third_set 1_20: 8852123870851929920
       rooms_third_set 1_21: 1799262613888180755
-      rooms_third_set 1_22: -7061561658612703301
-      rooms_third_set 1_23: -1483677840369838595
       rooms_third_set 1_24: -1915389885607099483
       rooms_third_set 1_25: -3556339487627849848
       rooms_third_set 1_26: -4283111539357341074
@@ -2178,10 +2179,9 @@ TextureImporter:
       rooms_third_set 1_69: -6469369409727765303
       rooms_third_set 1_7: -8732258682296903908
       rooms_third_set 1_70: 1074371321718633066
-      rooms_third_set 1_71: 6591413980330946052
-      rooms_third_set 1_72: 2897605716236042231
       rooms_third_set 1_8: 9008097118619455566
       rooms_third_set 1_9: -8791134008406543973
+      wine_spilt: 2897605716236042231
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
