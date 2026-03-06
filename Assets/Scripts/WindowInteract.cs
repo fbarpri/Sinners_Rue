@@ -54,8 +54,7 @@ public class WindowInteract : MonoBehaviour, Interactable
     {
         for (int i = 0; i < sloth.Length; i++)
         {
-            if (sloth[i] != null)
-                sloth[i].SetActive(true);
+            if (sloth[i] != null) sloth[i].SetActive(true);
         }
     }
 }
