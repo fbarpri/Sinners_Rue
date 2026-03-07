@@ -41,6 +41,7 @@ public class ClosetInteract : MonoBehaviour, Interactable
                 closed_mail.SetActive(false);
                 opened_mail.SetActive(true);
                 dm.StartDialogue(gotScissors);
+                inventory.hasFamilyPhoto = true;
             }
         }
     }
