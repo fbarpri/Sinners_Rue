@@ -27,7 +27,7 @@ public class PlayerInventory : MonoBehaviour
     if (lust && sloth && envy && pride && wrath && greed)
     {
         Debug.Log("ALL SINS FOUND.");
-        allSinsLogged = true;
+        hoverText.ShowText("God. I need a drink.");
     }
 }
 }
