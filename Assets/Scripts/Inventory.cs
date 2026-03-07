@@ -10,4 +10,5 @@ public class PlayerInventory : MonoBehaviour
     public bool hasFamilyPhoto = false;
     public bool hasFoundBox = false;
     public bool hasFoundCookbook = false;
+    public bool hasFoundMakeup = false;
 }
