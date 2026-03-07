@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class InteractBox : MonoBehaviour
+public class GeneralInteract : MonoBehaviour
 {
     public GameObject eye;
     private bool playerInRange = false;

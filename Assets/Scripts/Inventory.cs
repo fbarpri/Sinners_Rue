@@ -8,4 +8,6 @@ public class PlayerInventory : MonoBehaviour
     public bool hasScissors = false;
     public bool hasMail = false;
     public bool hasFamilyPhoto = false;
+    public bool hasFoundBox = false;
+    public bool hasFoundCookbook = false;
 }

@@ -7,6 +7,7 @@ public class OvenInteract : MonoBehaviour, Interactable
     private bool placedPhotoIn = false;
     public string[] turningOvenOn;
     public string[] revealingText;
+    public string[] defaultIntro;
     private PlayerInventory inventory;
     public GameObject ovenPuzzlePanel;
     private SpriteRenderer sr;
@@ -24,7 +25,12 @@ public class OvenInteract : MonoBehaviour, Interactable
 
     public void Interact()
     {
-        if (!inventory.gotCorrectTemp)
+        if (!inventory.hasFoundCookbook)
+        {
+            dm.StartDialogue(defaultIntro);
+        } else
+        {
+            if (!inventory.gotCorrectTemp)
         {
             ovenPuzzlePanel.SetActive(true);
             if (inventory.gotCorrectTemp)
@@ -49,6 +55,7 @@ public class OvenInteract : MonoBehaviour, Interactable
                 ActivateLust();
                 return;
             }
+        }
         }
     }
 

@@ -4,9 +4,7 @@ public class ToolsInteract : MonoBehaviour, Interactable
 {
     public GameObject scissors;
     public string[] initial;
-    public string[] gotMail;
-    public string[] gotPhoto;
-    public string[] gotPhotoAndMail;
+    public string[] getScissors;
     private DialogueManager dm;
     private PlayerInventory inventory;
 
@@ -19,25 +17,16 @@ public class ToolsInteract : MonoBehaviour, Interactable
     public void Interact()
     {
         if (!dm) return;
-        if (!inventory.hasFamilyPhoto & !inventory.hasMail)
+        if (inventory.hasMail | inventory.hasFoundBox | inventory.hasFamilyPhoto)
+            {
+                dm.StartDialogue (getScissors);
+                inventory.hasScissors = true;
+                scissors.SetActive(false);
+            }
+            else
         {
             dm.StartDialogue(initial);
             return;
-        } else
-        {
-            scissors.SetActive(false);
-            inventory.hasScissors = true;
-            if (inventory.hasFamilyPhoto && inventory.hasMail){
-                dm.StartDialogue(gotPhotoAndMail);
-            }
-            if (inventory.hasFamilyPhoto && !inventory.hasMail){
-                dm.StartDialogue(gotPhoto);
-
-            }
-            if (!inventory.hasFamilyPhoto && inventory.hasMail){
-                dm.StartDialogue(gotMail);
-            }
-            return;
-            }
+        }
     }
 }

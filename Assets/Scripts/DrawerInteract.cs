@@ -3,7 +3,7 @@ using UnityEngine;
 public class DrawerInteract : MonoBehaviour, Interactable
 {
     public Sprite openedDrawer;
-    public GameObject closed_mail;
+    public GameObject cookbook;
     public string[] initialNoKey;
     public string[] secondHasKey;
     public string[] initialHasKey;
@@ -57,7 +57,8 @@ public class DrawerInteract : MonoBehaviour, Interactable
         } else
         {
             dm.StartDialogue(finalHasKey);
-            closed_mail.SetActive(true);
+            cookbook.SetActive(true);
+            inventory.hasFoundCookbook = true;
             return;
         }
     }
@@ -66,7 +67,7 @@ public class DrawerInteract : MonoBehaviour, Interactable
         if (other.CompareTag("Player"))
         {
             playerInRange = false;
-            if (closed_mail) closed_mail.SetActive(false);
+            if (cookbook) cookbook.SetActive(false);
         }
     }
 }
