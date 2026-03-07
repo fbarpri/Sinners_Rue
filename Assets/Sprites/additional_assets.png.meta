@@ -161,7 +161,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: additional_assets_0
+      name: Move_candle_unlit_1
       rect:
         serializedVersion: 2
         x: 14
@@ -183,7 +183,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: additional_assets_1
+      name: Move_candle_unlit_2
       rect:
         serializedVersion: 2
         x: 46
@@ -205,7 +205,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: additional_assets_2
+      name: Move_candle_unlit_3
       rect:
         serializedVersion: 2
         x: 77
@@ -227,7 +227,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: additional_assets_3
+      name: Move_candle_unlit_4
       rect:
         serializedVersion: 2
         x: 110
@@ -249,7 +249,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: additional_assets_4
+      name: idle_candle_unlit_1
       rect:
         serializedVersion: 2
         x: 15
@@ -271,7 +271,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: additional_assets_5
+      name: idle_candle_unlit_2
       rect:
         serializedVersion: 2
         x: 47
@@ -293,7 +293,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: additional_assets_6
+      name: idle_candle_unlit_3
       rect:
         serializedVersion: 2
         x: 78
@@ -315,7 +315,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: additional_assets_7
+      name: idle_candle_unlit_4
       rect:
         serializedVersion: 2
         x: 111
@@ -359,7 +359,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: open_box_with_stuff
+      name: box_open_stuff
       rect:
         serializedVersion: 2
         x: 11
@@ -425,7 +425,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: additional_assets_12
+      name: box_open_empty
       rect:
         serializedVersion: 2
         x: 11
@@ -491,7 +491,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: additional_assets_15
+      name: box_matches
       rect:
         serializedVersion: 2
         x: 105
@@ -548,23 +548,23 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      additional_assets_0: 6219592135705170111
-      additional_assets_1: -5067518544763076058
+      Move_candle_unlit_1: 6219592135705170111
+      Move_candle_unlit_2: -5067518544763076058
+      Move_candle_unlit_3: 3788276599379464048
+      Move_candle_unlit_4: 4606364247753195444
       additional_assets_10: -7540132081210806650
       additional_assets_11: 2768292776584573413
-      additional_assets_12: 5562697346314754563
       additional_assets_13: -1311478368202438811
       additional_assets_14: 8100453865041589485
-      additional_assets_15: 5419658640482360601
       additional_assets_16: 6227415080293919558
-      additional_assets_2: 3788276599379464048
-      additional_assets_3: 4606364247753195444
-      additional_assets_4: 7834606486248604063
-      additional_assets_5: 3854315606596597637
-      additional_assets_6: 2487760926913350738
-      additional_assets_7: -97070676749157356
       additional_assets_8: 1143964388055745079
-      open_box_with_stuff: -3165505885771590563
+      box_matches: 5419658640482360601
+      box_open_empty: 5562697346314754563
+      box_open_stuff: -3165505885771590563
+      idle_candle_unlit_1: 7834606486248604063
+      idle_candle_unlit_2: 3854315606596597637
+      idle_candle_unlit_3: 2487760926913350738
+      idle_candle_unlit_4: -97070676749157356
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
