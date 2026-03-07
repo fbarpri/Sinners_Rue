@@ -18,17 +18,15 @@ public class PlayerInventory : MonoBehaviour
     public bool wrath = false;
     public bool greed = false;
     public HoverText hoverText;
-    public bool hasFoundAllSins()
-    {
-        if (lust & sloth & envy & pride & wrath & greed)
-        {
-            Debug.Log ("ALL SINS FOUND.");
-            hoverText.ShowText("God. I need a drink.");
-            return true;
-        } else
-        {
-            return false;
-        }
-    }
+    public bool hasCandle;
 
+
+    void Update()
+{
+    if (lust && sloth && envy && pride && wrath && greed)
+    {
+        Debug.Log("ALL SINS FOUND.");
+        allSinsLogged = true;
+    }
+}
 }

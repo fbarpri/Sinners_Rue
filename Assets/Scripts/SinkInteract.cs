@@ -6,10 +6,12 @@ public class SinkInteract : MonoBehaviour, Interactable
     private PlayerInventory inventory;
     public GameObject[] greed;
     public string[] luxuryMakeup;
+    public string[] allSins;
 
     void Awake()
     {
         dm = FindFirstObjectByType<DialogueManager>();
+        inventory = FindFirstObjectByType<PlayerInventory>();
     }
 
     public void Interact()
