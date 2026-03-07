@@ -621,7 +621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractBox
   eye: {fileID: 1588058635}
-  interactableObj: {fileID: 83381248}
+  interactableObj: {fileID: 0}
 --- !u!114 &83381248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2397,7 +2397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   sceneToLoad: Bathroom
-  spawnPointName: BedroomSpawn
+  targetPosition: {x: -15, y: -2.5, z: 0}
 --- !u!61 &518558609
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2745,7 +2745,6 @@ Transform:
   - {fileID: 1435936758}
   - {fileID: 1013523909}
   - {fileID: 1943490336}
-  - {fileID: 1752505768}
   - {fileID: 1574362034}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2902,7 +2901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractBox
   eye: {fileID: 1500785}
-  interactableObj: {fileID: 670971592}
+  interactableObj: {fileID: 0}
 --- !u!114 &670971592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4025,7 +4024,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0.5, y: 1, z: 0}
   m_AnchorMin: {x: 0, y: 0.7}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 1.6599731}
+  m_AnchoredPosition: {x: 0, y: 1.6600037}
   m_SizeDelta: {x: 0, y: -3.3200073}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &735938760
@@ -5083,8 +5082,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   player: {fileID: 1872012758}
-  minX: -27.5
-  maxX: 50
+  minX: -26.3
+  maxX: 48.5
   moveSpeed: 5
 --- !u!1 &854874045
 GameObject:
@@ -5284,7 +5283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractBox
   eye: {fileID: 1435936759}
-  interactableObj: {fileID: 870132369}
+  interactableObj: {fileID: 0}
 --- !u!114 &870132369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5759,7 +5758,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractBox
   eye: {fileID: 1784496716}
-  interactableObj: {fileID: 908629703}
+  interactableObj: {fileID: 0}
 --- !u!114 &908629703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6069,7 +6068,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GeneralInteract
   eye: {fileID: 1058806394}
-  interactableObj: {fileID: 988218057}
+  interactableObj: {fileID: 0}
 --- !u!114 &988218057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6307,7 +6306,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -8475066386161055071, guid: 6f42822199fcd1044bae91b623a25c3d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7267,7 +7266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractBox
   eye: {fileID: 889726103}
-  interactableObj: {fileID: 1147281229}
+  interactableObj: {fileID: 0}
 --- !u!114 &1147281229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10064,7 +10063,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractBox
   eye: {fileID: 1303980925}
-  interactableObj: {fileID: 1658447829}
+  interactableObj: {fileID: 0}
 --- !u!114 &1658447829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10404,6 +10403,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1752505768}
+  - component: {fileID: 1752505769}
   m_Layer: 0
   m_Name: BedroomSpawn
   m_TagString: Untagged
@@ -10420,12 +10420,25 @@ Transform:
   m_GameObject: {fileID: 1752505767}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.050121, y: -1.4930601, z: 0}
+  m_LocalPosition: {x: -31, y: -2.81889, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 562344015}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1752505769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752505767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc5dfecdaade54379aec81e9867ed29e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  spawnID: BedroomSpawn
 --- !u!1 &1763500288
 GameObject:
   m_ObjectHideFlags: 0
@@ -10896,7 +10909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractBox
   eye: {fileID: 1711103250}
-  interactableObj: {fileID: 1787112728}
+  interactableObj: {fileID: 0}
 --- !u!114 &1787112728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11314,6 +11327,7 @@ GameObject:
   - component: {fileID: 1872012759}
   - component: {fileID: 1872012762}
   - component: {fileID: 1872012763}
+  - component: {fileID: 1872012764}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -11448,7 +11462,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -11533,6 +11547,18 @@ MonoBehaviour:
   hasFamilyPhoto: 0
   hasFoundBox: 0
   hasFoundCookbook: 0
+--- !u!114 &1872012764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872012756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7e5472f0c3cb4532bc52f9af99cb843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &1872816054
 GameObject:
   m_ObjectHideFlags: 0
@@ -12206,7 +12232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GeneralInteract
   eye: {fileID: 1835145013}
-  interactableObj: {fileID: 1938555334}
+  interactableObj: {fileID: 0}
 --- !u!1 &1943490335
 GameObject:
   m_ObjectHideFlags: 0
@@ -13174,3 +13200,4 @@ SceneRoots:
   - {fileID: 1556456833}
   - {fileID: 1882098324}
   - {fileID: 766757313}
+  - {fileID: 1752505768}

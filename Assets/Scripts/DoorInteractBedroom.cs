@@ -4,11 +4,14 @@ using UnityEngine.SceneManagement;
 public class DoorInteractBedroom : MonoBehaviour, Interactable
 {
     public string sceneToLoad;
-    public string spawnPointName;
+    public Vector3 targetPosition; // position in the next scene where player should appear
 
     public void Interact()
     {
-        SpawnManager.spawnPoint = spawnPointName;
+        // save where the player should spawn
+        PlayerPositionManager.lastPosition = targetPosition;
+
+        // load the next scene
         SceneManager.LoadScene(sceneToLoad);
     }
 }

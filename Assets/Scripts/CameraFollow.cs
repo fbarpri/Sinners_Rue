@@ -2,14 +2,36 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform player; // player pos.
-    public float minX, maxX; //prevent from going overboard lol
-    public float moveSpeed = 5;
+    public Transform player;
+    public float minX, maxX;
+    public float minY, maxY; // add Y bounds
+    public float moveSpeed = 5f;
 
-    void LateUpdate() // after player
+    private bool snapNextFrame = false;
+
+    void LateUpdate()
     {
+        if (player == null) return;
+
         float clampedX = Mathf.Clamp(player.position.x, minX, maxX);
-        Vector3 new_pos = new Vector3(clampedX, transform.position.y, -10);
-        transform.position = Vector3.Lerp(transform.position, new_pos, moveSpeed * Time.deltaTime); // so its not immediate
+        float clampedY = Mathf.Clamp(player.position.y, minY, maxY);
+
+        Vector3 targetPos = new Vector3(clampedX, clampedY, -10f);
+
+        if (snapNextFrame)
+        {
+            transform.position = targetPos;  // snap instantly
+            snapNextFrame = false;
+        }
+        else
+        {
+            transform.position = Vector3.Lerp(transform.position, targetPos, moveSpeed * Time.deltaTime);
+        }
+    }
+
+    // Call this to snap camera immediately to player
+    public void SnapToPlayer()
+    {
+        snapNextFrame = true;
     }
 }
