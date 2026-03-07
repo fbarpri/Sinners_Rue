@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform player;
-    public float minX, maxX;
-    public float minY, maxY; // add Y bounds
-    public float moveSpeed = 5f;
+    public Transform player;       // player to follow
+    public float minX, maxX;       // horizontal limits
+    public float moveSpeed = 5f;   // smooth follow speed
+    public float yOffset = 2f;     // vertical offset above player
 
     private bool snapNextFrame = false;
 
@@ -13,10 +13,13 @@ public class CameraFollow : MonoBehaviour
     {
         if (player == null) return;
 
+        // clamp horizontal position
         float clampedX = Mathf.Clamp(player.position.x, minX, maxX);
-        float clampedY = Mathf.Clamp(player.position.y, minY, maxY);
 
-        Vector3 targetPos = new Vector3(clampedX, clampedY, -10f);
+        // vertical position is player's Y plus offset
+        float targetY = player.position.y + yOffset;
+
+        Vector3 targetPos = new Vector3(clampedX, targetY, -10f);
 
         if (snapNextFrame)
         {
@@ -25,6 +28,7 @@ public class CameraFollow : MonoBehaviour
         }
         else
         {
+            // smooth follow
             transform.position = Vector3.Lerp(transform.position, targetPos, moveSpeed * Time.deltaTime);
         }
     }

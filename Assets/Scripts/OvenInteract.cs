@@ -53,6 +53,7 @@ public class OvenInteract : MonoBehaviour, Interactable
                 sr.sprite = oven_off;
                 revealed_text.SetActive(true);
                 ActivateLust();
+                inventory.lust = true;
                 return;
             }
         }

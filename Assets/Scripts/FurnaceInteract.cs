@@ -30,6 +30,7 @@ public class FurnaceInteract : MonoBehaviour, Interactable
                 dm.StartDialogue (hasMail);
                 hasBurnedMail = true;
                 ActivateEnvy();
+                inventory.envy = true;
             } else
             {
                 dm.StartDialogue (burnedMail);

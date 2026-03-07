@@ -47,6 +47,8 @@ public class BoxInteract : MonoBehaviour, Interactable
                 art.SetActive(false);
                 sr.sprite = openBoxEmpty;
                 award.SetActive(true);
+                inventory.pride = true;
+                ActivatePride();
                 return;
             }
         }

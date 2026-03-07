@@ -31,6 +31,7 @@ public class WindowInteract : MonoBehaviour, Interactable
             sr.sprite = window_open;
             whiskers.SetActive(true);
             ActivateSloth();
+            inventory.sloth = true;
         }
     }
 

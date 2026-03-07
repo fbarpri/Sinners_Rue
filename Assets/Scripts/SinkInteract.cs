@@ -10,13 +10,13 @@ public class SinkInteract : MonoBehaviour, Interactable
     void Awake()
     {
         dm = FindFirstObjectByType<DialogueManager>();
-        inventory = FindFirstObjectByType<PlayerInventory>();
     }
 
     public void Interact()
     {
         dm.StartDialogue (luxuryMakeup);
         ActivateGreed();
+        inventory.greed = true;
     }
 
     void ActivateGreed()
