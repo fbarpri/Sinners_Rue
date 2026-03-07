@@ -28,6 +28,8 @@ public class PlayerInventory : MonoBehaviour
     {
         Debug.Log("ALL SINS FOUND.");
         hoverText.ShowText("God. I need a drink.");
+        candleLit;
+        hasCandle;
     }
 }
 }
