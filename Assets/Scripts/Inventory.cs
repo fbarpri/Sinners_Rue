@@ -18,7 +18,8 @@ public class PlayerInventory : MonoBehaviour
     public bool wrath = false;
     public bool greed = false;
     public HoverText hoverText;
-    public bool hasCandle;
+    public bool hasCandle = false;
+    public bool candleLit = false;
 
 
     void Update()
