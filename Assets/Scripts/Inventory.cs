@@ -21,11 +21,8 @@ public class PlayerInventory : MonoBehaviour
     public HoverText hoverText;
     public bool hasCandle = false;
     public bool candleLit = false;
-<<<<<<< HEAD
     public bool hasMatches = false;
-=======
     public bool hasWine = false;
->>>>>>> 469bfb98cec72745ab3eb9bbf90891858f3d56c1
     public Light2D candleLight;
     private Animator animator;
     public bool allSins = false;

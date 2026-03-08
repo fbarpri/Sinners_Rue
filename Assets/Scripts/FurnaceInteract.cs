@@ -9,6 +9,7 @@ public class FurnaceInteract : MonoBehaviour, Interactable
     private bool hasBurnedMail = false;
     private DialogueManager dm;
     private PlayerInventory inventory;
+    public GameObject firewood;
     public GameObject unlitFurnace;
     public GameObject litFurnace;
     public GameObject burnedMailFurnace;
@@ -28,6 +29,7 @@ public class FurnaceInteract : MonoBehaviour, Interactable
 
         } else if (!inventory.hasFamilyPhoto && inventory.hasMatches) 
             {
+                firewood.SetActive(false);
                 unlitFurnace.SetActive(false);
                 litFurnace.SetActive(true);
                 dm.StartDialogue(hasMatches);
