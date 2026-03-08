@@ -43,6 +43,7 @@ public class PlayerInventory : MonoBehaviour
     {
         allSins = true;
         hoverText.ShowText("God. I need a drink.");
+        MusicManager.instance.PlayDrink();
     }
 }
 }
