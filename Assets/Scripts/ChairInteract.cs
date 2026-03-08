@@ -7,6 +7,8 @@ public class ChairInteract : MonoBehaviour, Interactable
     public string[] initial;
     public string[] canPush;
     public GameObject chairpushed;
+    public AudioSource audioSource;
+    public AudioClip interactSound;
 
 
     void Awake()
@@ -17,6 +19,7 @@ public class ChairInteract : MonoBehaviour, Interactable
 
     public void Interact()
     {
+        audioSource.PlayOneShot(interactSound);
         if (inventory.allSins)
         {
             dm.StartDialogue (canPush);

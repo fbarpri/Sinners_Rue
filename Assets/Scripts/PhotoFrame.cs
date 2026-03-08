@@ -10,7 +10,8 @@ public class PhotoFrame : MonoBehaviour, Interactable
     private bool firstInteractionDone = false;
     private SpriteRenderer sr;
     private DialogueManager dm;
-    private bool playerInRange = false;
+    public AudioSource audioSource;
+    public AudioClip interactSound;
 
     void Awake()
     {
@@ -22,6 +23,7 @@ public class PhotoFrame : MonoBehaviour, Interactable
     public void Interact()
     {
         if (!dm) return;
+        audioSource.PlayOneShot(interactSound);
         if (!firstInteractionDone)
         {
             dm.StartDialogue(dialogueBefore);
@@ -35,19 +37,10 @@ public class PhotoFrame : MonoBehaviour, Interactable
         }
     }
 
-    protected void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            playerInRange = true;
-        }
-    }
-
     protected void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            playerInRange = false;
             if (zoomedPhoto) zoomedPhoto.SetActive(false);
         }
     }

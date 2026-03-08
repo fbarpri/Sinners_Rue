@@ -12,6 +12,9 @@ public class FamilyPhotoInteract : MonoBehaviour, Interactable
     public GameObject ripHusband;
     public Sprite cutout_photo;
     private SpriteRenderer sr;
+    public AudioSource audioSource;
+    public AudioClip textAppears;
+    public AudioClip interactSound;
 
     void Awake()
     {
@@ -22,6 +25,7 @@ public class FamilyPhotoInteract : MonoBehaviour, Interactable
 
     public void Interact()
     {
+        audioSource.PlayOneShot(interactSound);
         if (!inventory.hasScissors)
         {
             dm.StartDialogue (noScissorsInitial);
@@ -38,6 +42,7 @@ public class FamilyPhotoInteract : MonoBehaviour, Interactable
                 sr.sprite = cutout_photo;
                 ripHusband.SetActive (true);
                 ActivateWrath();
+                audioSource.PlayOneShot(textAppears);
                 inventory.wrath = true;
             }
         }

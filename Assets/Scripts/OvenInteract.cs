@@ -3,7 +3,6 @@ using UnityEngine;
 public class OvenInteract : MonoBehaviour, Interactable
 {
     private DialogueManager dm;
-    private bool playerInRange = false;
     private bool placedPhotoIn = false;
     public string[] turningOvenOn;
     public string[] revealingText;
@@ -15,6 +14,9 @@ public class OvenInteract : MonoBehaviour, Interactable
     public Sprite oven_off;
     public GameObject revealed_text;
     public GameObject[] lust;
+    public AudioSource audioSource;
+    public AudioClip textAppears;
+    public AudioClip interactSound;
 
     void Awake()
     {
@@ -25,6 +27,7 @@ public class OvenInteract : MonoBehaviour, Interactable
 
     public void Interact()
     {
+        audioSource.PlayOneShot(interactSound);
         if (!inventory.hasFoundCookbook)
         {
             dm.StartDialogue(defaultIntro);
@@ -54,17 +57,10 @@ public class OvenInteract : MonoBehaviour, Interactable
                 revealed_text.SetActive(true);
                 ActivateLust();
                 inventory.lust = true;
+                audioSource.PlayOneShot(textAppears);
                 return;
             }
         }
-        }
-    }
-
-    protected void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            playerInRange = true;
         }
     }
 
@@ -72,7 +68,6 @@ public class OvenInteract : MonoBehaviour, Interactable
     {
         if (other.CompareTag("Player"))
         {
-            playerInRange = false;
             if (revealed_text) revealed_text.SetActive(false);
         }
     }

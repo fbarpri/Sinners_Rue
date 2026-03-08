@@ -8,8 +8,9 @@ public class PlantInteract : MonoBehaviour, Interactable
 
     private bool firstInteractionDone = false;
     private DialogueManager dm;
-    private bool playerInRange = false;
     private PlayerInventory inventory;
+    public AudioSource audioSource;
+    public AudioClip interactSound;
 
     void Awake()
     {
@@ -20,6 +21,7 @@ public class PlantInteract : MonoBehaviour, Interactable
     public void Interact()
     {
         if (!dm) return;
+        audioSource.PlayOneShot(interactSound);
         if (!firstInteractionDone)
         {
             key.SetActive(true);
@@ -33,19 +35,10 @@ public class PlantInteract : MonoBehaviour, Interactable
         }
     }
 
-    protected void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            playerInRange = true;
-        }
-    }
-
     protected void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            playerInRange = false;
             if (firstInteractionDone) key.SetActive(false);
         }
     }

@@ -7,15 +7,16 @@ public class BoxInteract : MonoBehaviour, Interactable
     public string[] findingAward;
     private DialogueManager dm;
     private PlayerInventory inventory;
-    private bool firstEncounter = true;
     private bool openedBox = false;
     public GameObject award;
     public GameObject art;
-    private bool playerInRange = false;
     private SpriteRenderer sr;
     public Sprite openBoxWithStuff;
     public Sprite openBoxEmpty;
     public GameObject[] pride;
+    public AudioSource audioSource;
+    public AudioClip textAppears;
+    public AudioClip interactSound;
 
     void Awake()
     {
@@ -26,6 +27,7 @@ public class BoxInteract : MonoBehaviour, Interactable
 
     public void Interact()
     {
+        audioSource.PlayOneShot(interactSound);
         inventory.hasFoundBox = true;
         if (!dm) return;
         if (!inventory.hasScissors)
@@ -49,15 +51,9 @@ public class BoxInteract : MonoBehaviour, Interactable
                 award.SetActive(true);
                 inventory.pride = true;
                 ActivatePride();
+                audioSource.PlayOneShot(textAppears);
                 return;
             }
-        }
-    }
-    protected void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            playerInRange = true;
         }
     }
 
@@ -65,7 +61,6 @@ public class BoxInteract : MonoBehaviour, Interactable
     {
         if (other.CompareTag("Player"))
         {
-            playerInRange = false;
             if (art) art.SetActive(false);
         }
     }

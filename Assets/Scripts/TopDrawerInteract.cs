@@ -14,6 +14,9 @@ public class TopDrawerInteract : MonoBehaviour, Interactable
     public GameObject wineGlass;
     public GameObject wineEye;
     public GameObject candleLit;
+    public AudioSource audioSource;
+    public AudioClip textAppears;
+    public AudioClip interactSound;
 
 
 
@@ -25,6 +28,7 @@ public class TopDrawerInteract : MonoBehaviour, Interactable
 
     public void Interact()
     {
+        audioSource.PlayOneShot(interactSound);
         if (!inventory.allSins)
         {
             dm.StartDialogue(notAllSinsFound);
@@ -36,6 +40,7 @@ public class TopDrawerInteract : MonoBehaviour, Interactable
                 dm.StartDialogue(getsWine);
                 ActivateGluttony();
                 ActivateWine();
+                audioSource.PlayOneShot(textAppears);
                 wineGlass.SetActive(true);
                 openedDrawer.SetActive(true);
                 candleLit.SetActive (true);

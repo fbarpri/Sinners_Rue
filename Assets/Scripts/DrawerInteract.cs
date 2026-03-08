@@ -13,8 +13,9 @@ public class DrawerInteract : MonoBehaviour, Interactable
     private bool hasOpenedDrawer = false;
     private SpriteRenderer sr;
     private DialogueManager dm;
-    private bool playerInRange = false;
     private PlayerInventory inventory;
+    public AudioSource audioSource;
+    public AudioClip interactSound;
 
     void Awake()
     {
@@ -27,6 +28,7 @@ public class DrawerInteract : MonoBehaviour, Interactable
     public void Interact()
     {
         if (!dm) return;
+        audioSource.PlayOneShot(interactSound);
 
         if (!hasOpenedDrawer) // drawer locked
         {
@@ -66,7 +68,6 @@ public class DrawerInteract : MonoBehaviour, Interactable
     {
         if (other.CompareTag("Player"))
         {
-            playerInRange = false;
             if (cookbook) cookbook.SetActive(false);
         }
     }

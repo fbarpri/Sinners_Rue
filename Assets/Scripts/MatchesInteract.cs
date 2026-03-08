@@ -5,7 +5,8 @@ public class MatchesInteract : MonoBehaviour, Interactable
     private PlayerInventory inventory;
     private DialogueManager dm;
     public string[] hasMatches;
-    private bool playerInRange = false;
+    public AudioSource audioSource;
+    public AudioClip interactSound;
 
     void Awake()
     {
@@ -15,6 +16,7 @@ public class MatchesInteract : MonoBehaviour, Interactable
 
     public void Interact()
     {
+        audioSource.PlayOneShot(interactSound);
         if (inventory.hasCandle && !inventory.candleLit) {
             inventory.candleLit = true;
 
@@ -26,14 +28,6 @@ public class MatchesInteract : MonoBehaviour, Interactable
             inventory.hasMatches = true;
             dm.StartDialogue(hasMatches);
             gameObject.SetActive(false); 
-        }
-    }
-
-    protected void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            playerInRange = true;
         }
     }
 }

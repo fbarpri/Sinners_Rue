@@ -5,7 +5,8 @@ public class CandleInteract : MonoBehaviour, Interactable
     private PlayerInventory inventory;
     private DialogueManager dm;
     public string[] hasCandle;
-    private bool playerInRange = false;
+    public AudioSource audioSource;
+    public AudioClip interactSound;
 
     void Awake()
     {
@@ -15,6 +16,7 @@ public class CandleInteract : MonoBehaviour, Interactable
 
     public void Interact()
     {
+        audioSource.PlayOneShot(interactSound);
         inventory.hasCandle = true;
         inventory.candleLit = false;
 
@@ -26,13 +28,5 @@ public class CandleInteract : MonoBehaviour, Interactable
         dm.StartDialogue(hasCandle);
 
         gameObject.SetActive(false); // remove candle
-    }
-
-    protected void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            playerInRange = true;
-        }
     }
 }

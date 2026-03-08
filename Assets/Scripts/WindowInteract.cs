@@ -9,8 +9,10 @@ public class WindowInteract : MonoBehaviour, Interactable
     private SpriteRenderer sr;
     public Sprite window_open;
     public GameObject[] sloth;
-    private bool playerInRange = false;
     public GameObject whiskers;
+    public AudioSource audioSource;
+    public AudioClip textAppears;
+    public AudioClip interactSound;
 
     void Awake()
     {
@@ -21,6 +23,7 @@ public class WindowInteract : MonoBehaviour, Interactable
 
     public void Interact()
     {
+        audioSource.PlayOneShot(interactSound);
         if (!inventory.windowOpenable)
         {
             dm.StartDialogue(noOpen);
@@ -32,22 +35,7 @@ public class WindowInteract : MonoBehaviour, Interactable
             whiskers.SetActive(true);
             ActivateSloth();
             inventory.sloth = true;
-        }
-    }
-
-    protected void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            playerInRange = true;
-        }
-    }
-
-    protected void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            playerInRange = false;
+            audioSource.PlayOneShot(textAppears);
         }
     }
 

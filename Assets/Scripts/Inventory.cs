@@ -27,6 +27,7 @@ public class PlayerInventory : MonoBehaviour
     private Animator animator;
     public bool allSins = false;
     public bool hasPushedChair = false;
+    public bool hasTutorialKey = false;
 
     void Awake()
     {
@@ -42,6 +43,7 @@ public class PlayerInventory : MonoBehaviour
     if (lust && sloth && envy && pride && wrath && greed)
     {
         allSins = true;
+        MusicManager.instance.PlayDrink();
         hoverText.ShowText("God. I need a drink.");
         MusicManager.instance.PlayDrink();
     }

@@ -14,6 +14,9 @@ public class FurnaceInteract : MonoBehaviour, Interactable
     public GameObject litFurnace;
     public GameObject burnedMailFurnace;
     public GameObject[] envy;
+    public AudioSource audioSource;
+    public AudioClip textAppears;
+    public AudioClip interactSound;
 
     void Awake()
     {
@@ -23,6 +26,7 @@ public class FurnaceInteract : MonoBehaviour, Interactable
 
     public void Interact()
     {   
+        audioSource.PlayOneShot(interactSound);
         if (!inventory.hasFamilyPhoto && !inventory.hasMatches)
         {
             dm.StartDialogue(noMail);
@@ -41,6 +45,7 @@ public class FurnaceInteract : MonoBehaviour, Interactable
                 dm.StartDialogue (hasMail);
                 hasBurnedMail = true;
                 ActivateEnvy();
+                audioSource.PlayOneShot(textAppears);
                 inventory.envy = true;
             } else
             {

@@ -6,7 +6,9 @@ public class SinkInteract : MonoBehaviour, Interactable
     private PlayerInventory inventory;
     public GameObject[] greed;
     public string[] luxuryMakeup;
-    public string[] allSins;
+    public AudioSource audioSource;
+    public AudioClip textAppears;
+    public AudioClip interactSound;
 
     void Awake()
     {
@@ -16,8 +18,10 @@ public class SinkInteract : MonoBehaviour, Interactable
 
     public void Interact()
     {
+        audioSource.PlayOneShot(interactSound);
         dm.StartDialogue (luxuryMakeup);
         ActivateGreed();
+        audioSource.PlayOneShot(textAppears);
         inventory.greed = true;
     }
 

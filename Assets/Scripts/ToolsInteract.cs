@@ -7,6 +7,8 @@ public class ToolsInteract : MonoBehaviour, Interactable
     public string[] getScissors;
     private DialogueManager dm;
     private PlayerInventory inventory;
+    public AudioSource audioSource;
+    public AudioClip interactSound;
 
     void Awake()
     {
@@ -17,6 +19,7 @@ public class ToolsInteract : MonoBehaviour, Interactable
     public void Interact()
     {
         if (!dm) return;
+        audioSource.PlayOneShot(interactSound);
         if (inventory.hasMail | inventory.hasFoundBox | inventory.hasFamilyPhoto)
             {
                 dm.StartDialogue (getScissors);
