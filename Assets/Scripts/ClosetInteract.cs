@@ -14,6 +14,8 @@ public class ClosetInteract : MonoBehaviour, Interactable
     private SpriteRenderer sr;
     public AudioSource audioSource;
     public AudioClip interactSound;
+    private bool finished = false;
+    public string[] finishedDialogue;
 
     void Awake()
     {
@@ -26,7 +28,12 @@ public class ClosetInteract : MonoBehaviour, Interactable
     {
         if (!dm) return;
         audioSource.PlayOneShot(interactSound);
-        if (firstInteraction)
+        if (finished) {
+            dm.StartDialogue(finishedDialogue);
+            return;
+        } else
+        {
+            if (firstInteraction)
         {
             dm.StartDialogue(openingCloset);
             sr.sprite = open_closet;
@@ -43,8 +50,10 @@ public class ClosetInteract : MonoBehaviour, Interactable
                 closed_mail.SetActive(false);
                 opened_mail.SetActive(true);
                 dm.StartDialogue(gotScissors);
-                inventory.hasFamilyPhoto = true;
+                inventory.hasMail = true;
+                finished = true;
             }
+        }
         }
     }
 

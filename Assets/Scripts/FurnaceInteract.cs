@@ -27,18 +27,18 @@ public class FurnaceInteract : MonoBehaviour, Interactable
     public void Interact()
     {   
         audioSource.PlayOneShot(interactSound);
-        if (!inventory.hasFamilyPhoto && !inventory.hasMatches)
+        if (!inventory.hasMail && !inventory.hasMatches)
         {
             dm.StartDialogue(noMail);
 
-        } else if (!inventory.hasFamilyPhoto && inventory.hasMatches) 
+        } else if (!inventory.hasMail && inventory.hasMatches) 
             {
                 firewood.SetActive(false);
                 unlitFurnace.SetActive(false);
                 litFurnace.SetActive(true);
                 dm.StartDialogue(hasMatches);
 
-        } else if (inventory.hasFamilyPhoto && !hasBurnedMail)
+        } else if (inventory.hasMail && !hasBurnedMail)
             {
                 litFurnace.SetActive(false);
                 burnedMailFurnace.SetActive(true);

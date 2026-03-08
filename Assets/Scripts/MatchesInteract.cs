@@ -7,6 +7,7 @@ public class MatchesInteract : MonoBehaviour, Interactable
     public string[] hasMatches;
     public AudioSource audioSource;
     public AudioClip interactSound;
+    public string[] noCandle;
 
     void Awake()
     {
@@ -28,6 +29,9 @@ public class MatchesInteract : MonoBehaviour, Interactable
             inventory.hasMatches = true;
             dm.StartDialogue(hasMatches);
             gameObject.SetActive(false); 
+        } else
+        {
+            dm.StartDialogue(noCandle);
         }
     }
 }

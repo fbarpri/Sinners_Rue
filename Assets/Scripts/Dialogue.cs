@@ -1,12 +1,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
-    public GameObject dialoguePanel;   // assign your Canvas panel (Screen Space - Camera)
+    public GameObject dialoguePanel;   // assign your Canvas panel
     public TMP_Text dialogueText;      // TMP text inside panel
-    public bool dialogueFinished = false; // dialogue has ended 
+    public bool dialogueFinished = false;
+    private PlayerInventory inventory;
 
     private Queue<string> sentences = new Queue<string>();
 
@@ -15,9 +17,17 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(false);
     }
 
+    void Awake()
+    {
+        inventory = FindFirstObjectByType<PlayerInventory>();
+    }
+
     public void StartDialogue(string[] dialogueLines)
     {
-        if (dialogueLines.Length == 0) return;
+        if (dialogueLines.Length == 0)
+        {
+            return;
+        }
 
         sentences.Clear();
         foreach (string s in dialogueLines)
@@ -53,9 +63,12 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueFinished = true;
         dialoguePanel.SetActive(false);
+        
+        if (inventory.endGame)
+        {
+            SceneManager.LoadScene("End_Menu");
+        }
     }
-
-    // Allows other scripts (like PlayerMovement) to check if dialogue is open
     public bool IsActive()
     {
         return dialoguePanel.activeSelf;

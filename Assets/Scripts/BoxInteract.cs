@@ -17,6 +17,8 @@ public class BoxInteract : MonoBehaviour, Interactable
     public AudioSource audioSource;
     public AudioClip textAppears;
     public AudioClip interactSound;
+    private bool finished = false;
+    public string[] finishedDialogue;
 
     void Awake()
     {
@@ -28,7 +30,12 @@ public class BoxInteract : MonoBehaviour, Interactable
     public void Interact()
     {
         audioSource.PlayOneShot(interactSound);
-        inventory.hasFoundBox = true;
+        if (finished) {
+            dm.StartDialogue(finishedDialogue);
+            return;
+        } else
+        {
+            inventory.hasFoundBox = true;
         if (!dm) return;
         if (!inventory.hasScissors)
         {
@@ -52,8 +59,10 @@ public class BoxInteract : MonoBehaviour, Interactable
                 inventory.pride = true;
                 ActivatePride();
                 audioSource.PlayOneShot(textAppears);
+                finished = true;
                 return;
             }
+        }
         }
     }
 

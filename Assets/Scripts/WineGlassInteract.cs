@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WineGlassInteract : MonoBehaviour, Interactable
 {
@@ -7,7 +8,6 @@ public class WineGlassInteract : MonoBehaviour, Interactable
     public string[] finalDialogue;
     public AudioSource audioSource;
     public AudioClip interactSound;
-
 
     void Awake()
     {
@@ -19,6 +19,7 @@ public class WineGlassInteract : MonoBehaviour, Interactable
     {
         audioSource.PlayOneShot(interactSound);
         inventory.hasWine = true;
-        dm.StartDialogue (finalDialogue);
+        inventory.endGame = true;
+        dm.StartDialogue(finalDialogue);
     }
 }

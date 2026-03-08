@@ -28,6 +28,7 @@ public class PlayerInventory : MonoBehaviour
     public bool allSins = false;
     public bool hasPushedChair = false;
     public bool hasTutorialKey = false;
+    public bool endGame = false;
 
     void Awake()
     {
@@ -35,17 +36,16 @@ public class PlayerInventory : MonoBehaviour
     }
 
     void Update()
-{
-    animator.SetBool("hasCandle", hasCandle);
-    animator.SetBool("candleLit", candleLit);
-    animator.SetBool("hasWine", hasWine);
-
-    if (lust && sloth && envy && pride && wrath && greed)
     {
-        allSins = true;
-        MusicManager.instance.PlayDrink();
-        hoverText.ShowText("God. I need a drink.");
-        MusicManager.instance.PlayDrink();
+        animator.SetBool("hasCandle", hasCandle);
+        animator.SetBool("candleLit", candleLit);
+        animator.SetBool("hasWine", hasWine);
+
+        if (lust && sloth && envy && pride && wrath && greed)
+        {
+            allSins = true;
+            MusicManager.instance.PlayDrink();
+            hoverText.ShowText("God. I need a drink.");
+        }
     }
-}
 }

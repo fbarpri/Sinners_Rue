@@ -25,6 +25,7 @@ public class ChairInteract : MonoBehaviour, Interactable
             dm.StartDialogue (canPush);
             chairpushed.SetActive(true);
             gameObject.SetActive(false);
+            inventory.hasPushedChair = true;
             
         } else
         {

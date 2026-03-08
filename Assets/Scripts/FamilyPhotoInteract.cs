@@ -15,6 +15,8 @@ public class FamilyPhotoInteract : MonoBehaviour, Interactable
     public AudioSource audioSource;
     public AudioClip textAppears;
     public AudioClip interactSound;
+    private bool finished = false;
+    public string[] finishedDialogue;
 
     void Awake()
     {
@@ -26,7 +28,12 @@ public class FamilyPhotoInteract : MonoBehaviour, Interactable
     public void Interact()
     {
         audioSource.PlayOneShot(interactSound);
-        if (!inventory.hasScissors)
+        if (finished) {
+            dm.StartDialogue(finishedDialogue);
+            return;
+        } else
+        {
+            if (!inventory.hasScissors)
         {
             dm.StartDialogue (noScissorsInitial);
             initial = false;
@@ -44,7 +51,9 @@ public class FamilyPhotoInteract : MonoBehaviour, Interactable
                 ActivateWrath();
                 audioSource.PlayOneShot(textAppears);
                 inventory.wrath = true;
+                finished = true;
             }
+        }
         }
     }
 

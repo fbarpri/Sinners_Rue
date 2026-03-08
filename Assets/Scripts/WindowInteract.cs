@@ -13,6 +13,8 @@ public class WindowInteract : MonoBehaviour, Interactable
     public AudioSource audioSource;
     public AudioClip textAppears;
     public AudioClip interactSound;
+    private bool finished = false;
+    public string[] finishedDialogue;
 
     void Awake()
     {
@@ -24,7 +26,12 @@ public class WindowInteract : MonoBehaviour, Interactable
     public void Interact()
     {
         audioSource.PlayOneShot(interactSound);
-        if (!inventory.windowOpenable)
+        if (finished) {
+            dm.StartDialogue(finishedDialogue);
+            return;
+        } else
+        {
+            if (!inventory.windowOpenable)
         {
             dm.StartDialogue(noOpen);
             return;
@@ -36,6 +43,8 @@ public class WindowInteract : MonoBehaviour, Interactable
             ActivateSloth();
             inventory.sloth = true;
             audioSource.PlayOneShot(textAppears);
+            finished = true;
+        }
         }
     }
 

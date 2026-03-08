@@ -9,6 +9,8 @@ public class ToolsInteract : MonoBehaviour, Interactable
     private PlayerInventory inventory;
     public AudioSource audioSource;
     public AudioClip interactSound;
+    private bool finished = false;
+    public string[] finishedDialogue;
 
     void Awake()
     {
@@ -20,16 +22,23 @@ public class ToolsInteract : MonoBehaviour, Interactable
     {
         if (!dm) return;
         audioSource.PlayOneShot(interactSound);
+        if (finished) {
+            dm.StartDialogue(finishedDialogue);
+            return;
+        } else
+        {
         if (inventory.hasMail | inventory.hasFoundBox | inventory.hasFamilyPhoto)
             {
                 dm.StartDialogue (getScissors);
                 inventory.hasScissors = true;
                 scissors.SetActive(false);
+                finished = true;
             }
             else
         {
             dm.StartDialogue(initial);
             return;
+            } 
         }
     }
 }

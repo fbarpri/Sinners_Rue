@@ -17,6 +17,8 @@ public class OvenInteract : MonoBehaviour, Interactable
     public AudioSource audioSource;
     public AudioClip textAppears;
     public AudioClip interactSound;
+    private bool finished = false;
+    public string[] finishedDialogue;
 
     void Awake()
     {
@@ -28,7 +30,12 @@ public class OvenInteract : MonoBehaviour, Interactable
     public void Interact()
     {
         audioSource.PlayOneShot(interactSound);
-        if (!inventory.hasFoundCookbook)
+        if (finished) {
+            dm.StartDialogue(finishedDialogue);
+            return;
+        } else
+        {
+            if (!inventory.hasFoundCookbook)
         {
             dm.StartDialogue(defaultIntro);
         } else
@@ -58,10 +65,13 @@ public class OvenInteract : MonoBehaviour, Interactable
                 ActivateLust();
                 inventory.lust = true;
                 audioSource.PlayOneShot(textAppears);
+                finished = true;
                 return;
             }
         }
         }
+        }
+       
     }
 
     protected void OnTriggerExit2D(Collider2D other)

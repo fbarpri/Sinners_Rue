@@ -12,6 +12,8 @@ public class PhotoFrame : MonoBehaviour, Interactable
     private DialogueManager dm;
     public AudioSource audioSource;
     public AudioClip interactSound;
+    private bool finished = false;
+    public string[] finishedDialogue;
 
     void Awake()
     {
@@ -24,7 +26,13 @@ public class PhotoFrame : MonoBehaviour, Interactable
     {
         if (!dm) return;
         audioSource.PlayOneShot(interactSound);
-        if (!firstInteractionDone)
+        if (finished)
+        {
+            dm.StartDialogue(finishedDialogue);
+            return;
+        } else
+        {
+            if (!firstInteractionDone)
         {
             dm.StartDialogue(dialogueBefore);
             sr.sprite = photoFramePeeking;  // appears after first dialogue
@@ -34,6 +42,8 @@ public class PhotoFrame : MonoBehaviour, Interactable
         {
             if (zoomedPhoto) zoomedPhoto.SetActive(true);
             dm.StartDialogue(dialogueAfter);
+            finished = true;
+        }
         }
     }
 
