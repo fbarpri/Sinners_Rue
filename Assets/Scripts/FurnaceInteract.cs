@@ -30,29 +30,33 @@ public class FurnaceInteract : MonoBehaviour, Interactable
         if (!inventory.hasMail && !inventory.hasMatches)
         {
             dm.StartDialogue(noMail);
-
-        } else if (!inventory.hasMail && inventory.hasMatches) 
-            {
-                firewood.SetActive(false);
-                unlitFurnace.SetActive(false);
-                litFurnace.SetActive(true);
-                dm.StartDialogue(hasMatches);
-
-        } else if (inventory.hasMail && !hasBurnedMail)
-            {
-                litFurnace.SetActive(false);
-                burnedMailFurnace.SetActive(true);
-                dm.StartDialogue (hasMail);
-                hasBurnedMail = true;
-                ActivateEnvy();
-                audioSource.PlayOneShot(textAppears);
-                inventory.envy = true;
-            } else
-            {
-                dm.StartDialogue (burnedMail);
-            }
-            
         }
+        else if (!inventory.hasMail && inventory.hasMatches)
+        {
+            firewood.SetActive(false);
+            unlitFurnace.SetActive(false);
+            litFurnace.SetActive(true);
+
+            dm.StartDialogue(hasMatches);
+        }
+        else if (inventory.hasMail && inventory.hasMatches && !hasBurnedMail)
+        {
+            litFurnace.SetActive(false);
+            burnedMailFurnace.SetActive(true);
+
+            dm.StartDialogue(hasMail);
+
+            hasBurnedMail = true;
+            ActivateEnvy();
+
+            audioSource.PlayOneShot(textAppears);
+            inventory.envy = true;
+        }
+        else
+        {
+            dm.StartDialogue(burnedMail);
+        }
+    }
 
     void ActivateEnvy() {
         for (int i = 0; i < envy.Length; i++)

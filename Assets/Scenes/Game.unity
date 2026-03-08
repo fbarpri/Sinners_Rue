@@ -6046,10 +6046,11 @@ Transform:
   m_GameObject: {fileID: 692098948}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.12, y: 13.85, z: -3789.0002}
-  m_LocalScale: {x: 200, y: 190.40001, z: 0}
+  m_LocalPosition: {x: 0.2, y: -46.3, z: 0}
+  m_LocalScale: {x: 150, y: 150, z: 0}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1882487503}
   m_Father: {fileID: 789777683}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &692098950
@@ -6099,7 +6100,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -664995455
   m_SortingLayer: 1
-  m_SortingOrder: 30
+  m_SortingOrder: 20
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1244963457401939639, guid: dac945ff09d87234cbec280164c0a616, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7890,7 +7891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -7920,9 +7921,9 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
+  m_UpdateRectTransformForStandalone: 1
   m_SortingLayerID: -664995455
-  m_SortingOrder: 15
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!1 &791867954
 GameObject:
@@ -12022,8 +12023,8 @@ Transform:
   m_GameObject: {fileID: 1128545885}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00000037410993, y: 0.000000017242607, z: 0.046004776, w: -0.99894124}
-  m_LocalPosition: {x: -2.5, y: -1.47, z: -0}
-  m_LocalScale: {x: 2.2188246, y: 2.4266012, z: 1}
+  m_LocalPosition: {x: -5.3958, y: 1.9445, z: -0}
+  m_LocalScale: {x: 2.6630332, y: 2.724345, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1059579747}
@@ -14038,9 +14039,9 @@ Transform:
   m_GameObject: {fileID: 1265676679}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.19, y: 0.2, z: -3789.0002}
-  m_LocalScale: {x: 215, y: 215, z: 42.100002}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -3, y: -62, z: 0}
+  m_LocalScale: {x: 155.14848, y: 148.694, z: 42.1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 789777683}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17280,7 +17281,7 @@ Transform:
   m_GameObject: {fileID: 1570495115}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -207.16263, y: -142.49698, z: -3784.5}
+  m_LocalPosition: {x: -173, y: -148, z: -3784.5}
   m_LocalScale: {x: 210.25, y: 210.25, z: 42.05}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20169,7 +20170,15 @@ MonoBehaviour:
     m_Id: 76e93cf2-2302-49a6-a621-cb47d41f06e0
     m_Processors: 
     m_Interactions: 
-    m_SingletonActionBindings: []
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 8d93567a-e002-41d2-a8f1-cb300afddb66
+      m_Path: <Keyboard>/space
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Interact
+      m_Flags: 0
     m_Flags: 0
 --- !u!61 &1872012760
 BoxCollider2D:
@@ -20544,6 +20553,90 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1882487502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1882487503}
+  - component: {fileID: 1882487504}
+  m_Layer: 0
+  m_Name: dial_light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1882487503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882487502}
+  serializedVersion: 2
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
+  m_LocalPosition: {x: 0.02, y: 0.088, z: 0}
+  m_LocalScale: {x: 3.0036628, y: 3.0036628, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 692098949}
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!114 &1882487504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882487502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.Light2D
+  m_ComponentVersion: 2
+  m_LightType: 1
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.46
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_LightVolumeIntensity: 1
+  m_LightVolumeEnabled: 0
+  m_ApplyToSortingLayers: 0000000081f95cd8
+  m_LightCookieSprite: {fileID: 0}
+  m_DeprecatedPointLightCookieSprite: {fileID: 0}
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_OverlapOperation: 0
+  m_NormalMapDistance: 3
+  m_NormalMapQuality: 2
+  m_UseNormalMap: 0
+  m_ShadowsEnabled: 1
+  m_ShadowIntensity: 0.75
+  m_ShadowSoftness: 0.3
+  m_ShadowSoftnessFalloffIntensity: 0.5
+  m_ShadowVolumeIntensityEnabled: 0
+  m_ShadowVolumeIntensity: 0.75
+  m_LocalBounds:
+    m_Center: {x: -0.00024998188, y: -0.000100016594, z: 0}
+    m_Extent: {x: 1.00045, y: 1.0009, z: 0}
+  m_PointLightInnerAngle: 0
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 2.1088881
+  m_PointLightOuterRadius: 2.1088881
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &1888044681
 GameObject:
   m_ObjectHideFlags: 0
@@ -22194,7 +22287,7 @@ Transform:
   m_GameObject: {fileID: 2101125445}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 219.9, y: -142.497, z: -4790.999}
+  m_LocalPosition: {x: 169, y: -144, z: -4790.999}
   m_LocalScale: {x: 210.25, y: 210.25, z: 53.233326}
   m_ConstrainProportionsScale: 0
   m_Children: []

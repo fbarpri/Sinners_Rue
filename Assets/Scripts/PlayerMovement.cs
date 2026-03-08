@@ -52,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnEnable()
     {
-    interactAction.Enable();
+        interactAction.Enable();
     }
 
     private void OnDisable()
@@ -63,5 +63,12 @@ public class PlayerMovement : MonoBehaviour
     public void SetInteractable(Interactable interactable)
     {
         currentInteractable = interactable;
+    }
+
+    public void StopMovement()
+    {
+        movement = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
+        _animator.SetBool("isMoving", false);
     }
 }

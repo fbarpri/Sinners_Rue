@@ -36,6 +36,7 @@ public class DialogueManager : MonoBehaviour
             sentences.Enqueue(s);
 
         dialoguePanel.SetActive(true);
+        playerMovement.StopMovement();
         playerMovement.enabled = false;
         DisplayNextSentence();
     }
