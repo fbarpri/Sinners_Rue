@@ -4,9 +4,7 @@ public class MatchesInteract : MonoBehaviour, Interactable
 {
     private PlayerInventory inventory;
     private DialogueManager dm;
-    public string[] dialogueBefore;
-    public string[] dialogueAfter;
-    private bool firstInteractionDone = false;
+    public string[] hasMatches;
     private bool playerInRange = false;
 
     void Awake()
@@ -17,22 +15,17 @@ public class MatchesInteract : MonoBehaviour, Interactable
 
     public void Interact()
     {
-        if (!firstInteractionDone) {
-        if (inventory.hasCandle && !inventory.candleLit)
+        if (inventory.hasCandle && !inventory.candleLit) {
+            inventory.candleLit = true;
+
+            if (inventory.candleLight != null)
             {
-                inventory.candleLit = true;
-
-                if (inventory.candleLight != null)
-                {
-                    inventory.candleLight.enabled = true;
-                }
-
-                dm.StartDialogue(dialogueBefore);
-                firstInteractionDone = true;
-                gameObject.SetActive(false); 
+                inventory.candleLight.enabled = true;
             }
-        } else {
-            dm.StartDialogue(dialogueAfter);
+
+            inventory.hasMatches = true;
+            dm.StartDialogue(hasMatches);
+            gameObject.SetActive(false); 
         }
     }
 
