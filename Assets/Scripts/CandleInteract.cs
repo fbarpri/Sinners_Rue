@@ -1,10 +1,11 @@
 using UnityEngine;
 
-public class candleLight : MonoBehaviour, Interactable
+public class CandleInteract : MonoBehaviour, Interactable
 {
     private PlayerInventory inventory;
     private DialogueManager dm;
     public string[] hasCandle;
+    private bool playerInRange = false;
 
     void Awake()
     {
@@ -15,15 +16,23 @@ public class candleLight : MonoBehaviour, Interactable
     public void Interact()
     {
         inventory.hasCandle = true;
-        inventory.candleLit = true;
+        inventory.candleLit = false;
 
         if (inventory.candleLight != null)
         {
-            inventory.candleLight.enabled = true;
+            inventory.candleLight.enabled = false;
         }
 
         dm.StartDialogue(hasCandle);
 
         gameObject.SetActive(false); // remove candle
+    }
+
+    protected void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerInRange = true;
+        }
     }
 }

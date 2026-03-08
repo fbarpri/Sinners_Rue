@@ -42,7 +42,7 @@ AnimatorStateTransition:
     m_ConditionEvent: isMoving
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: isLit
+    m_ConditionEvent: candleLit
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5860781544924928502}
@@ -157,7 +157,7 @@ AnimatorStateTransition:
     m_ConditionEvent: hasCandle
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: isLit
+    m_ConditionEvent: candleLit
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6998442897867213314}
@@ -188,7 +188,7 @@ AnimatorStateTransition:
     m_ConditionEvent: hasCandle
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: isLit
+    m_ConditionEvent: candleLit
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8036030753228888050}
@@ -219,7 +219,7 @@ AnimatorStateTransition:
     m_ConditionEvent: isMoving
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: isLit
+    m_ConditionEvent: candleLit
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6998442897867213314}
@@ -250,7 +250,7 @@ AnimatorStateTransition:
     m_ConditionEvent: hasCandle
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: isLit
+    m_ConditionEvent: candleLit
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6158648308940294256}
@@ -318,7 +318,7 @@ AnimatorStateTransition:
     m_ConditionEvent: hasCandle
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: isLit
+    m_ConditionEvent: candleLit
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7418012472983609272}
@@ -355,7 +355,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: isLit
+  - m_Name: candleLit
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -389,7 +389,7 @@ AnimatorStateTransition:
     m_ConditionEvent: isMoving
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: isLit
+    m_ConditionEvent: candleLit
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6998442897867213314}
@@ -475,7 +475,7 @@ AnimatorStateTransition:
     m_ConditionEvent: hasCandle
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: isLit
+    m_ConditionEvent: candleLit
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6158648308940294256}
@@ -506,7 +506,7 @@ AnimatorStateTransition:
     m_ConditionEvent: hasCandle
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: isLit
+    m_ConditionEvent: candleLit
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7418012472983609272}
@@ -537,7 +537,7 @@ AnimatorStateTransition:
     m_ConditionEvent: hasCandle
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: isLit
+    m_ConditionEvent: candleLit
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7476081788689286556}

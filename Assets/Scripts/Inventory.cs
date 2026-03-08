@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class PlayerInventory : MonoBehaviour
 {
@@ -20,7 +21,7 @@ public class PlayerInventory : MonoBehaviour
     public HoverText hoverText;
     public bool hasCandle = false;
     public bool candleLit = false;
-    public Light candleLight;
+    public Light2D candleLight;
     private Animator animator;
 
     void Awake()
