@@ -20,6 +20,7 @@ public class PlayerInventory : MonoBehaviour
     public HoverText hoverText;
     public bool hasCandle = false;
     public bool candleLit = false;
+    public Light candleLight;
 
 
     void Update()
