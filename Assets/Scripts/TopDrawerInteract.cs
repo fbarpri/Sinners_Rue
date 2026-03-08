@@ -32,6 +32,7 @@ public class TopDrawerInteract : MonoBehaviour, Interactable
         {
             if (inventory.hasPushedChair)
             {
+                inventory.hasCandle = false;
                 dm.StartDialogue(getsWine);
                 ActivateGluttony();
                 ActivateWine();
