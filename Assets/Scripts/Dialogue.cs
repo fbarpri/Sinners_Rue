@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
-    public GameObject dialoguePanel;   // assign your Canvas panel
-    public TMP_Text dialogueText;      // TMP text inside panel
+    public GameObject dialoguePanel;
+    public TMP_Text dialogueText;
     public bool dialogueFinished = false;
     private PlayerInventory inventory;
     private PlayerMovement playerMovement;
@@ -30,8 +30,7 @@ public class DialogueManager : MonoBehaviour
         {
             return;
         }
-
-        sentences.Clear();
+        sentences.Clear(); // for old dialogue
         foreach (string s in dialogueLines)
             sentences.Enqueue(s);
 
@@ -67,7 +66,6 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueFinished = true;
         dialoguePanel.SetActive(false);
-
         playerMovement.enabled = true;
         
         if (inventory.endGame)
@@ -75,6 +73,8 @@ public class DialogueManager : MonoBehaviour
             SceneManager.LoadScene("End_Menu");
         }
     }
+
+    // debug: check if dialogue is active
     public bool IsActive()
     {
         return dialoguePanel.activeSelf;

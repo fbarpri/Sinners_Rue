@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class TutorialDoorInteract : MonoBehaviour, Interactable
 {
-    public Transform teleportTarget; // where the player should appear
+    public Transform teleportTarget;
     private DialogueManager dm;
     private PlayerInventory inventory;
     private GameObject player;

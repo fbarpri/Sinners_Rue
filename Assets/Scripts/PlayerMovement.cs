@@ -7,7 +7,6 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movement;
     private InputAction movementAction;
     public InputAction interactAction;
-    private Interactable currentInteractable; // interactable that player is standing near
     private SpriteRenderer spriteRenderer;
     private Animator _animator;
     private void Awake()
@@ -21,8 +20,8 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         movement = movementAction.ReadValue<Vector2>();
-        // true if player is pressing any movement key
-        bool moving = movement.x != 0 || movement.y != 0;
+
+        bool moving = movement.x != 0 || movement.y != 0; // is the player moving?
         _animator.SetBool("isMoving", moving);
          if (movement.x < 0)
         {
@@ -32,19 +31,12 @@ public class PlayerMovement : MonoBehaviour
         {
             spriteRenderer.flipX = false; // face right
         }
-
-        if (interactAction.triggered && currentInteractable != null)
-        {
-            currentInteractable.Interact();
-        }
     }
     private void FixedUpdate()
     {
         rb.linearVelocity = movement * moveSpeed;
     }
 
-    // This function allows outside access to movement direction,
-    // for example for animation
     public Vector2 GetMovementDirection()
     {
         return movement;
@@ -60,13 +52,9 @@ public class PlayerMovement : MonoBehaviour
         interactAction.Disable();
     }
 
-    public void SetInteractable(Interactable interactable)
-    {
-        currentInteractable = interactable;
-    }
-
     public void StopMovement()
     {
+        // we use this in DM
         movement = Vector2.zero;
         rb.linearVelocity = Vector2.zero;
         _animator.SetBool("isMoving", false);

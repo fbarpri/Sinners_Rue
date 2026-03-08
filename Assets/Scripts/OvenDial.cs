@@ -4,8 +4,8 @@ public class OvenDial : MonoBehaviour
 {
     public Transform dial;
 
-    private int dialIndex = 0;// start at 0
-    private float stepAngle = 22.5f; // 360 / 16
+    private int dialIndex = 0; // start here 
+    private float stepAngle = 22.5f; // (360 / 16) mafs
     private float targetAngle;
     private float rotateSpeed = 300f; 
     private PlayerInventory inventory;
@@ -39,7 +39,7 @@ public class OvenDial : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W))
             puzzlePanel.SetActive(false);
 
-        // smooth rotation??
+        // smooth rotation. used AI for some fo the logic in this block
         float currentAngle = dial.localEulerAngles.z;
         float newAngle = Mathf.MoveTowardsAngle(currentAngle, -targetAngle, rotateSpeed * Time.deltaTime);
         dial.localRotation = Quaternion.Euler(0, 0, newAngle);
@@ -65,8 +65,6 @@ public class OvenDial : MonoBehaviour
         if (dialIndex == 14)
         {
             dm.StartDialogue(tempFound);
-
-            // Wait until dialogue finishes to close
             closingAfterDialogue = true;
         }
     }

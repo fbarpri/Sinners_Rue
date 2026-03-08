@@ -30,8 +30,6 @@ public class MouseMovement : MonoBehaviour
         }
 
         transform.position = pos;
-
-        // Flip the sprite
         sr.flipX = !movingRight;
     }
 }

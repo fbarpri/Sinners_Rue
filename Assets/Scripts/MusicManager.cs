@@ -24,6 +24,12 @@ public class MusicManager : MonoBehaviour
         source = GetComponent<AudioSource>();
     }
 
+    void Start()
+    {
+        // play menu music by default
+        PlayMenu();
+    }
+
     public void PlayMusic(AudioClip clip)
     {
         if (source.clip == clip) return;

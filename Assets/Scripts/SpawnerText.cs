@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class SpawnerText : MonoBehaviour
 {
+    // Note: Since this was a fun little add-on, this script is fully AI generated!
     public GameObject textPrefab;
     public RectTransform canvasRect;
     public Button[] buttonsToAvoid; // assign all buttons you want to avoid

@@ -16,7 +16,6 @@ public class GeneralInteract : MonoBehaviour
         if (interactableObj != null)
         {
             interactable = interactableObj as Interactable;
-            if (interactable == null) Debug.LogError("Assigned object does not implement Interactable!");
         }
         if (eye)
             eye.SetActive(false);

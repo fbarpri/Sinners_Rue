@@ -2,38 +2,32 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform player;       // player to follow
-    public float minX, maxX;       // horizontal limits
-    public float moveSpeed = 5f;   // smooth follow speed
-    public float yOffset = 2f;     // vertical offset above player
+    public Transform player;
+    public float minX, maxX;
+    public float moveSpeed = 5f;
+    public float yOffset = 2f;
 
-    private bool snapNextFrame = false;
+    private bool snapNextFrame = false; // i used this for moving through doors
 
     void LateUpdate()
     {
-        if (player == null) return;
-
-        // clamp horizontal position
         float clampedX = Mathf.Clamp(player.position.x, minX, maxX);
-
-        // vertical position is player's Y plus offset
         float targetY = player.position.y + yOffset;
 
         Vector3 targetPos = new Vector3(clampedX, targetY, -10f);
 
-        if (snapNextFrame)
+        if (snapNextFrame) // no smooth transition
         {
-            transform.position = targetPos;  // snap instantly
+            transform.position = targetPos;
             snapNextFrame = false;
         }
         else
         {
-            // smooth follow
+            // smoothed
             transform.position = Vector3.Lerp(transform.position, targetPos, moveSpeed * Time.deltaTime);
         }
     }
 
-    // Call this to snap camera immediately to player
     public void SnapToPlayer()
     {
         snapNextFrame = true;

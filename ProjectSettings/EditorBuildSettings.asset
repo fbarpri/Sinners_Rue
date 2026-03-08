@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 9522d79577d674fa38340ad3e62018e3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Bathroom.unity
     guid: d135b0faa7690436a9be61c941eaadc1
   - enabled: 1

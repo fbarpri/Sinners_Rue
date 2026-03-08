@@ -5,10 +5,9 @@ public class CatEntrance : MonoBehaviour
     public Transform jumpPoint;
     public Transform kitchenPoint;
     public float moveSpeed;
-
     private Animator anim;
     private CatFollow follow;
-    private int state = 0;            // 0 = jump, 1 = move to kitchen, 2 = follow
+    private int state = 0;
     public GameObject mouse1;
     public GameObject mouse2;
     public GameObject kitchenBlock;
@@ -36,23 +35,22 @@ public class CatEntrance : MonoBehaviour
         }
     }
 
+    // note: some of the movement logic was made with the help of AI but I integrated only those parts 
     void MoveJump()
     {
         if (jumpPoint == null) return;
 
-        // vertical jump first, anything less than this 10 really just looks kinda weird
+        // "cat jumping", anything less than this 10 really just looks kinda weird
         transform.position = Vector3.MoveTowards(transform.position, jumpPoint.position, 10 * Time.deltaTime);
 
         if (Vector2.Distance(transform.position, jumpPoint.position) < 0.05f)
         {
-            // lock Y for horizontal movement
+            // lock Y so cat doesnt float
             groundY = jumpPoint.position.y;
             Vector3 pos = transform.position;
             transform.position = new Vector3(pos.x, groundY, pos.z);
-
             state = 1;
         }
-
         anim.SetBool("isMoving", true);
     }
 
@@ -60,14 +58,21 @@ public class CatEntrance : MonoBehaviour
     {
         if (kitchenPoint == null) return;
 
-        Vector3 pos = transform.position;
-        pos.x = Mathf.MoveTowards(pos.x, kitchenPoint.position.x, moveSpeed * Time.deltaTime);
+        Vector3 pos = transform.position; // curr
+        pos.x = Mathf.MoveTowards(pos.x, kitchenPoint.position.x, moveSpeed * Time.deltaTime); // move
         pos.y = groundY;
         transform.position = pos;
 
         // flip sprite
         Vector3 scale = transform.localScale;
-        scale.x = (kitchenPoint.position.x - transform.position.x) > 0 ? Mathf.Abs(scale.x) : -Mathf.Abs(scale.x);
+        if (kitchenPoint.position.x - transform.position.x > 0)
+        {
+            scale.x = Mathf.Abs(scale.x); // face right
+        }
+        else
+        {
+            scale.x = -Mathf.Abs(scale.x); // face left
+        }
         transform.localScale = scale;
 
         anim.SetBool("isMoving", true);
@@ -81,7 +86,7 @@ public class CatEntrance : MonoBehaviour
 
             state = 2;
             follow.enabled = true;
-            enabled = false; // stop entrance
+            enabled = false; // stop this cutsceene
         }
     }
 }

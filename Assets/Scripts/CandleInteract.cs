@@ -27,6 +27,6 @@ public class CandleInteract : MonoBehaviour, Interactable
 
         dm.StartDialogue(hasCandle);
 
-        gameObject.SetActive(false); // remove candle
+        gameObject.SetActive(false);
     }
 }

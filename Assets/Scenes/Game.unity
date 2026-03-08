@@ -14092,7 +14092,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -664995455
   m_SortingLayer: 1
-  m_SortingOrder: 20
+  m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: 1695326440427508029, guid: 73ca9f6fcfa9db44387415dde27e2c4d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -20066,7 +20066,6 @@ GameObject:
   - component: {fileID: 1872012759}
   - component: {fileID: 1872012762}
   - component: {fileID: 1872012763}
-  - component: {fileID: 1872012764}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -20312,18 +20311,6 @@ MonoBehaviour:
   hasPushedChair: 0
   hasTutorialKey: 0
   endGame: 0
---- !u!114 &1872012764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1872012756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7e5472f0c3cb4532bc52f9af99cb843, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!1 &1872816054
 GameObject:
   m_ObjectHideFlags: 0
