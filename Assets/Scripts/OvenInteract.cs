@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class OvenInteract : MonoBehaviour, Interactable
 {
@@ -17,14 +18,18 @@ public class OvenInteract : MonoBehaviour, Interactable
     public AudioSource audioSource;
     public AudioClip textAppears;
     public AudioClip interactSound;
+    public Light2D ovenLight;
     private bool finished = false;
     public string[] finishedDialogue;
+    private PlayerMovement playerMovement;
 
     void Awake()
     {
         dm = FindFirstObjectByType<DialogueManager>();
         inventory = FindFirstObjectByType<PlayerInventory>();
         sr = GetComponent<SpriteRenderer>();
+        ovenLight.enabled = false;
+        playerMovement = FindFirstObjectByType<PlayerMovement>();
     }
 
     public void Interact()
@@ -43,9 +48,11 @@ public class OvenInteract : MonoBehaviour, Interactable
             if (!inventory.gotCorrectTemp)
         {
             ovenPuzzlePanel.SetActive(true);
+            playerMovement.enabled = false;
             if (inventory.gotCorrectTemp)
             {
                 ovenPuzzlePanel.SetActive(false);
+                playerMovement.enabled = true;
                 Interact();
             }
             return;
@@ -56,11 +63,13 @@ public class OvenInteract : MonoBehaviour, Interactable
                dm.StartDialogue(turningOvenOn); 
                sr.sprite = oven_on;
                placedPhotoIn = true;
+               ovenLight.enabled = true;
                return;
             } else
             {
                 dm.StartDialogue(revealingText); 
                 sr.sprite = oven_off;
+                ovenLight.enabled = false;
                 revealed_text.SetActive(true);
                 ActivateLust();
                 inventory.lust = true;

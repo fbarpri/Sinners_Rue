@@ -9,6 +9,7 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text dialogueText;      // TMP text inside panel
     public bool dialogueFinished = false;
     private PlayerInventory inventory;
+    private PlayerMovement playerMovement;
 
     private Queue<string> sentences = new Queue<string>();
 
@@ -20,6 +21,7 @@ public class DialogueManager : MonoBehaviour
     void Awake()
     {
         inventory = FindFirstObjectByType<PlayerInventory>();
+        playerMovement = FindFirstObjectByType<PlayerMovement>();
     }
 
     public void StartDialogue(string[] dialogueLines)
@@ -34,6 +36,7 @@ public class DialogueManager : MonoBehaviour
             sentences.Enqueue(s);
 
         dialoguePanel.SetActive(true);
+        playerMovement.enabled = false;
         DisplayNextSentence();
     }
 
@@ -63,6 +66,8 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueFinished = true;
         dialoguePanel.SetActive(false);
+
+        playerMovement.enabled = true;
         
         if (inventory.endGame)
         {
