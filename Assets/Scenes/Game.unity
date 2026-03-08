@@ -1312,7 +1312,7 @@ Transform:
   m_GameObject: {fileID: 110172605}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 68.9, y: -8.43, z: 0}
+  m_LocalPosition: {x: 69.15, y: -8.43, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6097,8 +6097,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -664995455
+  m_SortingLayer: 1
   m_SortingOrder: 30
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1244963457401939639, guid: dac945ff09d87234cbec280164c0a616, type: 3}
@@ -9363,7 +9363,7 @@ MonoBehaviour:
   m_Intensity: 0.4
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 0000000081f95cd8
+  m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -14089,8 +14089,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -664995455
+  m_SortingLayer: 1
   m_SortingOrder: 20
   m_MaskInteraction: 0
   m_Sprite: {fileID: 1695326440427508029, guid: 73ca9f6fcfa9db44387415dde27e2c4d, type: 3}
@@ -14583,7 +14583,7 @@ MonoBehaviour:
   m_Intensity: 0.4
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 0000000081f95cd8
+  m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -17331,8 +17331,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -664995455
+  m_SortingLayer: 1
   m_SortingOrder: 30
   m_MaskInteraction: 0
   m_Sprite: {fileID: 4671154737003574284, guid: f0c4e08fec419ca4783d98a0fddb3570, type: 3}
@@ -18981,7 +18981,7 @@ Transform:
   m_GameObject: {fileID: 1763500288}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 43.931515, y: -9.14, z: 0}
+  m_LocalPosition: {x: 44.17, y: -9.14, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -20990,6 +20990,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1933129560}
   - component: {fileID: 1933129561}
+  - component: {fileID: 1933129562}
   m_Layer: 0
   m_Name: oven_light
   m_TagString: Untagged
@@ -21006,7 +21007,7 @@ Transform:
   m_GameObject: {fileID: 1933129559}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.011, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21064,6 +21065,18 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &1933129562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933129559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de972be5c1e4e9647b1402f32b7539d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OvenFlicker
 --- !u!1 &1938555329
 GameObject:
   m_ObjectHideFlags: 0
@@ -21651,7 +21664,7 @@ Transform:
   m_GameObject: {fileID: 2006262589}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 46.651516, y: -9.279999, z: 0}
+  m_LocalPosition: {x: 46.36, y: -9.279999, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -22232,8 +22245,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -664995455
+  m_SortingLayer: 1
   m_SortingOrder: 30
   m_MaskInteraction: 0
   m_Sprite: {fileID: 1876796248830841742, guid: f0c4e08fec419ca4783d98a0fddb3570, type: 3}
