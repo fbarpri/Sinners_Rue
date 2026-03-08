@@ -12,7 +12,9 @@ public class TopDrawerInteract : MonoBehaviour, Interactable
     public GameObject[] wine;
     public GameObject[] gluttony;
     public GameObject wineGlass;
+    public GameObject wineEye;
     public GameObject candleLit;
+
 
 
     void Awake()
