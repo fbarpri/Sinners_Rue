@@ -295,7 +295,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: hasCandle
+    m_ConditionEvent: hasWine
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7094515633451949194}
@@ -429,10 +429,10 @@ AnimatorStateMachine:
     m_Position: {x: 290, y: 390, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4308821025518362773}
-    m_Position: {x: 30, y: 470, z: 0}
+    m_Position: {x: 70, y: 520, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7094515633451949194}
-    m_Position: {x: 360, y: 460, z: 0}
+    m_Position: {x: 380, y: 500, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
