@@ -1,16 +1,22 @@
 using UnityEngine;
 
-public class WineGlassInteract : MonoBehaviour
+public class WineGlassInteract : MonoBehaviour, Interactable
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private DialogueManager dm;
+    private PlayerInventory inventory;
+    public string[] finalDialogue;
+
+
+    void Awake()
     {
-        
+        dm = FindFirstObjectByType<DialogueManager>();
+        inventory = FindFirstObjectByType<PlayerInventory>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Interact()
     {
-        
+        inventory.hasWine = true;
+        dm.StartDialogue (finalDialogue);
+
     }
 }

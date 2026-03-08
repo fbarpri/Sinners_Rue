@@ -21,6 +21,7 @@ public class PlayerInventory : MonoBehaviour
     public HoverText hoverText;
     public bool hasCandle = false;
     public bool candleLit = false;
+    public bool hasWine = false;
     public Light2D candleLight;
     private Animator animator;
     public bool allSins = false;
@@ -35,6 +36,7 @@ public class PlayerInventory : MonoBehaviour
 {
     animator.SetBool("hasCandle", hasCandle);
     animator.SetBool("candleLit", candleLit);
+    animator.SetBool("hasWine", hasWine);
 
     if (lust && sloth && envy && pride && wrath && greed)
     {

@@ -220,7 +220,7 @@ Transform:
   m_GameObject: {fileID: 11017538}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 43.8593, y: -0.3677, z: 0}
+  m_LocalPosition: {x: 43.884, y: -0.3677, z: 0}
   m_LocalScale: {x: 9, y: 9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2419,7 +2419,7 @@ Transform:
   m_GameObject: {fileID: 333053760}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 33.58, y: 0.43, z: 0}
+  m_LocalPosition: {x: 40.23, y: 0.29, z: 0}
   m_LocalScale: {x: 9, y: 9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5771,7 +5771,7 @@ Transform:
   m_GameObject: {fileID: 709565002}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45.312, y: -2.31, z: 0}
+  m_LocalPosition: {x: 46.73, y: -2.28, z: 0}
   m_LocalScale: {x: 9, y: 9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6643,7 +6643,7 @@ Transform:
   m_GameObject: {fileID: 780229400}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.91706014, w: 0.3987491}
-  m_LocalPosition: {x: 42.3479, y: 0.04, z: 0}
+  m_LocalPosition: {x: 32.86, y: 0.14, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6858,6 +6858,7 @@ MonoBehaviour:
   - {fileID: 1888044681}
   - {fileID: 866144204}
   wineGlass: {fileID: 1566517428}
+  wineEye: {fileID: 0}
   candleLit: {fileID: 2143010599}
 --- !u!61 &782621867
 BoxCollider2D:
@@ -6893,7 +6894,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.12, y: -0.5}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6903,7 +6904,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.72, y: 0.18}
+  m_Size: {x: 0.2, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &787390122
 GameObject:
@@ -9682,8 +9683,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e838b87cc97a3c44ba6bd870dfacebdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MatchesInteract
-  hasMatches:
-  - Ha, now I can see!
+  dialogueBefore: []
+  dialogueAfter: []
 --- !u!61 &998216051
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10960,8 +10961,8 @@ Transform:
   m_GameObject: {fileID: 1115371255}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 42.239, y: -3.2549999, z: 0}
-  m_LocalScale: {x: 9, y: 9, z: 1}
+  m_LocalPosition: {x: 42.9377, y: -3.2549999, z: 0}
+  m_LocalScale: {x: 12.492715, y: 9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 260912718}
@@ -15522,13 +15523,15 @@ GameObject:
   - component: {fileID: 1566517430}
   - component: {fileID: 1566517429}
   - component: {fileID: 1566517431}
+  - component: {fileID: 1566517433}
+  - component: {fileID: 1566517432}
   m_Layer: 0
   m_Name: wine_glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1566517429
 SpriteRenderer:
   serializedVersion: 2
@@ -15597,7 +15600,7 @@ Transform:
   m_GameObject: {fileID: 1566517428}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 43.017902, y: -1.3227199, z: 0}
+  m_LocalPosition: {x: 44.6, y: -1.15, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15633,7 +15636,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -15649,6 +15652,36 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.09, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &1566517432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566517428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b282737dae58549a1bc11df94fb495bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GeneralInteract
+  eye: {fileID: 0}
+  interactableObj: {fileID: 0}
+--- !u!114 &1566517433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566517428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffeb81a392abe461db874a7851855d3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WineGlassInteract
+  finalDialogue:
+  - Sometimes I feel like everything that happened is my fault. But life has always
+    been so cruel to me.
+  - Why should I be kind to the world, when it has never been kind to me?
 --- !u!1001 &1574362033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16027,7 +16060,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 933401585346793516, guid: a5be2ce73c09b4a2bbd1322c85f6c296, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.45728
+      value: 0.54
       objectReference: {fileID: 0}
     - target: {fileID: 933401585346793516, guid: a5be2ce73c09b4a2bbd1322c85f6c296, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16064,6 +16097,10 @@ PrefabInstance:
     - target: {fileID: 9004191185303239619, guid: a5be2ce73c09b4a2bbd1322c85f6c296, type: 3}
       propertyPath: m_Name
       value: wine_eye
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004191185303239619, guid: a5be2ce73c09b4a2bbd1322c85f6c296, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17368,7 +17405,7 @@ Transform:
   m_GameObject: {fileID: 1787112724}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 42.08, y: -0.04, z: 0}
+  m_LocalPosition: {x: 32.61, y: 0.13, z: 0}
   m_LocalScale: {x: 9, y: 9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18368,6 +18405,7 @@ MonoBehaviour:
   hoverText: {fileID: 562120307}
   hasCandle: 0
   candleLit: 0
+  hasWine: 0
   candleLight: {fileID: 1538835944}
   allSins: 0
   hasPushedChair: 0
@@ -20432,7 +20470,7 @@ Transform:
   m_GameObject: {fileID: 2143010599}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 42.26, y: -1.25272, z: 0}
+  m_LocalPosition: {x: 41.3, y: -1.23, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
