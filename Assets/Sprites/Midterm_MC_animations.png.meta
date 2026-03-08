@@ -187,7 +187,7 @@ TextureImporter:
         serializedVersion: 2
         x: 14
         y: 235
-        width: 28
+        width: 29
         height: 58
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -229,7 +229,7 @@ TextureImporter:
       name: Midterm_MC_animations_2
       rect:
         serializedVersion: 2
-        x: 77
+        x: 78
         y: 235
         width: 29
         height: 58
@@ -317,7 +317,7 @@ TextureImporter:
       name: Midterm_MC_animations_6
       rect:
         serializedVersion: 2
-        x: 224
+        x: 225
         y: 235
         width: 28
         height: 58
@@ -363,7 +363,7 @@ TextureImporter:
         serializedVersion: 2
         x: 15
         y: 155
-        width: 28
+        width: 29
         height: 58
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -428,7 +428,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 111
-        y: 155
+        y: 156
         width: 29
         height: 58
       alignment: 0
@@ -493,7 +493,7 @@ TextureImporter:
       name: Midterm_MC_animations_14
       rect:
         serializedVersion: 2
-        x: 224
+        x: 225
         y: 155
         width: 28
         height: 58
@@ -731,6 +731,7 @@ TextureImporter:
       Midterm_MC_animations_13: 4333571249788144237
       Midterm_MC_animations_14: -7029340047574359027
       Midterm_MC_animations_15: -7318095345349053913
+      Midterm_MC_animations_16: -127128725
       Midterm_MC_animations_2: -4375119801770774864
       Midterm_MC_animations_20: 3471805732592482255
       Midterm_MC_animations_21: -5545068750013336356

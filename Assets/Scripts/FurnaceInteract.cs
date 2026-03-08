@@ -19,6 +19,10 @@ public class FurnaceInteract : MonoBehaviour, Interactable
 
     public void Interact()
     {
+        // if (inventory.hasMatches)
+        // {
+        // }
+        
         if (!inventory.hasFamilyPhoto)
         {
             dm.StartDialogue(noMail);
