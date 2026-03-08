@@ -21,10 +21,18 @@ public class PlayerInventory : MonoBehaviour
     public bool hasCandle = false;
     public bool candleLit = false;
     public Light candleLight;
+    private Animator animator;
 
+    void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     void Update()
 {
+    animator.SetBool("hasCandle", hasCandle);
+    animator.SetBool("candleLit", candleLit);
+
     if (lust && sloth && envy && pride && wrath && greed)
     {
         Debug.Log("ALL SINS FOUND.");
