@@ -22,6 +22,8 @@ public class PlayerInventory : MonoBehaviour
     public bool candleLit = false;
     public Light candleLight;
     private Animator animator;
+    public bool allSins = false;
+    public bool hasPushedChair = false;
 
     void Awake()
     {
@@ -35,7 +37,7 @@ public class PlayerInventory : MonoBehaviour
 
     if (lust && sloth && envy && pride && wrath && greed)
     {
-        Debug.Log("ALL SINS FOUND.");
+        allSins = true;
         hoverText.ShowText("God. I need a drink.");
     }
 }
