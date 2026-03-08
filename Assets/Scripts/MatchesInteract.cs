@@ -15,7 +15,7 @@ public class MatchesInteract : MonoBehaviour, Interactable
 
     public void Interact()
     {
-        if (inventory.hasCandle)
+        if (inventory.hasCandle && !inventory.candleLit)
         {
             inventory.candleLit = true;
 
@@ -25,6 +25,14 @@ public class MatchesInteract : MonoBehaviour, Interactable
             }
 
             dm.StartDialogue(hasMatches);
+        }
+    }
+
+    protected void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            playerInRange = true;
         }
     }
 }
