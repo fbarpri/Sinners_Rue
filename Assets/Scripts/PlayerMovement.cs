@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private InputAction movementAction;
     public InputAction interactAction;
     private SpriteRenderer spriteRenderer;
+    private ParticleSystem dustParticles;
     private Animator _animator;
     private void Awake()
     {
@@ -16,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         _animator = GetComponent<Animator>();
+        dustParticles = GetComponentInChildren<ParticleSystem>();
     }
     private void Update()
     {
@@ -26,10 +28,12 @@ public class PlayerMovement : MonoBehaviour
          if (movement.x < 0)
         {
             spriteRenderer.flipX = true;  // face left
+            if (!dustParticles.isPlaying) dustParticles.Play();
         }
         else if (movement.x > 0)
         {
             spriteRenderer.flipX = false; // face right
+            if (!dustParticles.isPlaying) dustParticles.Play();
         }
     }
     private void FixedUpdate()
