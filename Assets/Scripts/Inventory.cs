@@ -20,6 +20,7 @@ public class PlayerInventory : MonoBehaviour
     public bool greed = false;
     public HoverText hoverText;
     public bool hasCandle = false;
+    public bool litFurnace = false;
     public bool candleLit = false;
     public bool hasMatches = false;
     public bool hasWine = false;

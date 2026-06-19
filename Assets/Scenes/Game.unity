@@ -14584,7 +14584,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 
@@ -15375,13 +15375,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FurnaceInteract
   noMail:
   - What a nice furnace. I have no reason to turn it on though. Cold is mental.
-  hasMatches:
-  - Eh, might as well.
+  canLightFurnace: []
   hasMail:
   - "I\u2019ll just throw this in here."
   - I hope their stupidly decorated house burns down, just like the photo.
   burnedMail:
   - I don't regret anything I've done.
+  emptyLitFurnace: []
   firewood: {fileID: 1674262800}
   unlitFurnace: {fileID: 988218053}
   litFurnace: {fileID: 1221463503}
@@ -15457,7 +15457,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 0000000081f95cd8
@@ -15644,13 +15644,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e838b87cc97a3c44ba6bd870dfacebdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MatchesInteract
-  hasMatches:
-  - Ha, I can see now!
-  - I should keep these matches on me just in case.
+  canLightCandle:
+  - Let there be light.
+  hasNothing:
+  - Matches for my cigs. I can use it to light the furnace if I'm feeling fancy.
+  arson:
+  - These matches have no use to me now. What can I do? Commit arson?
+  - I would never...
+  onlyFurnaceLit:
+  - I used these to light the furnace but I wish I could see better. If only I could
+    find a candle or something.
   audioSource: {fileID: 1672729496}
   interactSound: {fileID: 8300000, guid: 7e221b2a6534e42708a92f828883ca75, type: 3}
-  noCandle:
-  - I use these matches to light candles when I want to save on power.
 --- !u!61 &998216051
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18525,13 +18530,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FurnaceInteract
   noMail:
   - What a nice furnace. I have no reason to turn it on though. Cold is mental.
-  hasMatches:
-  - Eh, might as well.
+  canLightFurnace:
+  - Eh, might as well. I'm cold.
   hasMail:
   - "I\u2019ll just throw this in here."
   - I hope their stupidly decorated house burns down, just like the photo.
   burnedMail:
   - I don't regret anything I've done.
+  emptyLitFurnace:
+  - The fire is on but it would look nicer with something burning inside of it.
   firewood: {fileID: 1674262800}
   unlitFurnace: {fileID: 988218053}
   litFurnace: {fileID: 1221463503}
@@ -18607,7 +18614,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 
@@ -21130,7 +21137,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afec806690292a0418cea91026b28b75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::candleLight
-  hasCandle:
+  hasLitCandle:
+  - Let there be light.
+  hasUnlitCandle:
   - It's too dark here, I should find a way to light this candle.
   audioSource: {fileID: 1672729496}
   interactSound: {fileID: 8300000, guid: 7e221b2a6534e42708a92f828883ca75, type: 3}
@@ -25306,7 +25315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 405f4129f20694c7fb37e619be7dd505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  moveSpeed: 10
+  moveSpeed: 5
   interactAction:
     m_Name: Interact
     m_Type: 0
@@ -25448,6 +25457,7 @@ MonoBehaviour:
   greed: 0
   hoverText: {fileID: 562120307}
   hasCandle: 0
+  litFurnace: 0
   candleLit: 0
   hasMatches: 0
   hasWine: 0

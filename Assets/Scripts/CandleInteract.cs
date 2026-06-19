@@ -4,7 +4,8 @@ public class CandleInteract : MonoBehaviour, Interactable
 {
     private PlayerInventory inventory;
     private DialogueManager dm;
-    public string[] hasCandle;
+    public string[] hasLitCandle;
+    public string[] hasUnlitCandle;
     public AudioSource audioSource;
     public AudioClip interactSound;
 
@@ -18,15 +19,23 @@ public class CandleInteract : MonoBehaviour, Interactable
     {
         audioSource.PlayOneShot(interactSound);
         inventory.hasCandle = true;
-        inventory.candleLit = false;
-
-        if (inventory.candleLight != null)
+        if (inventory.hasMatches == true)
+        {
+            inventory.candleLit = true;
+            if (inventory.candleLight != null)
+            {
+                inventory.candleLight.enabled = true;
+            }
+            dm.StartDialogue(hasLitCandle);
+        } else
+        {
+            inventory.candleLit = false;
+            if (inventory.candleLight != null)
         {
             inventory.candleLight.enabled = false;
         }
-
-        dm.StartDialogue(hasCandle);
-
+            dm.StartDialogue(hasUnlitCandle);
+        }
         gameObject.SetActive(false);
     }
 }

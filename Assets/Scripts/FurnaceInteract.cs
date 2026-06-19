@@ -3,9 +3,10 @@ using UnityEngine;
 public class FurnaceInteract : MonoBehaviour, Interactable
 {
     public string[] noMail;
-    public string[] hasMatches;
+    public string[] canLightFurnace;
     public string[] hasMail;
     public string[] burnedMail;
+    public string[] emptyLitFurnace;
     private bool hasBurnedMail = false;
     private DialogueManager dm;
     private PlayerInventory inventory;
@@ -36,8 +37,14 @@ public class FurnaceInteract : MonoBehaviour, Interactable
             firewood.SetActive(false);
             unlitFurnace.SetActive(false);
             litFurnace.SetActive(true);
-
-            dm.StartDialogue(hasMatches);
+            inventory.litFurnace = true;
+            if (!inventory.litFurnace)
+            {
+                dm.StartDialogue(canLightFurnace); 
+            } else
+            {
+                dm.StartDialogue(emptyLitFurnace);
+            }
         }
         else if (inventory.hasMail && inventory.hasMatches && !hasBurnedMail)
         {
