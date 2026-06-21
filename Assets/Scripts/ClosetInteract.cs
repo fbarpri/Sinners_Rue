@@ -41,7 +41,6 @@ public class ClosetInteract : MonoBehaviour, Interactable
         }
         else
         {
-            inventory.hasMail = true;
             closed_mail.SetActive(true);
             if (!inventory.hasScissors)
             {

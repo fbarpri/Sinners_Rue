@@ -43,7 +43,7 @@ public class TopDrawerInteract : MonoBehaviour, Interactable
                 audioSource.PlayOneShot(textAppears);
                 wineGlass.SetActive(true);
                 openedDrawer.SetActive(true);
-                candleLit.SetActive (true);
+                candleLit.SetActive(true);
                 gameObject.SetActive(false);
             } else
             {

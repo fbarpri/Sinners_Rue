@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.SceneManagement;
 
 public class WineGlassInteract : MonoBehaviour, Interactable
@@ -20,6 +21,12 @@ public class WineGlassInteract : MonoBehaviour, Interactable
         audioSource.PlayOneShot(interactSound);
         inventory.hasWine = true;
         inventory.endGame = true;
+
+        if (inventory.candleLight != null)
+        {
+            inventory.candleLight.enabled = false;
+        }
+
         dm.StartDialogue(finalDialogue);
     }
 }
